@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Form</title>
+
+<style>
+
+
+  /* Premium form styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.product-options {
+  margin-bottom: 20px;
+}
+
+.product-option label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.product-option select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+#price {
+  font-size: 24px; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+  color: #007bff; /* Set text color to a vibrant blue */
+  text-align: center; /* Center-align the text */
+  padding: 10px; /* Add padding for better visual appearance */
+  border-radius: 10px; /* Add rounded corners */
+  background-color: #f8f9fa; /* Set a light background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+</style>
+  </head>
+  <body>
+  
+    <h1 id="headline">Normal Pencil Portrait Drawing & Sketch</h1>
+    <div id="price">Price: $1499.00</div>
+  
+    <form id="product-form" action="javascript:void(0);" onsubmit="sendWhatsAppMessage()">
+      <div class="product-options">
+        <div class="product-option">
+          <label for="character-faces">Number Of Character/Faces:</label>
+          <select id="character-faces" name="number_of_faces">
+            <option value="1"selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="product-option">
+          <label for="portrait-size">Choose Size:</label>
+          <select id="portrait-size" name="portrait_size">
+            <option value="8x6 Inches">8x6 Inches</option>
+            <option value="12x10 Inches">12x10 Inches</option>
+            <option value="16x12 Inches" selected>16x12 Inches</option>
+            <option value="24x16 Inches">24x16 Inches</option>
+          </select>
+        </div>
+        <div class="product-option">
+          <label for="framing-options">Framing Options:</label>
+          <select id="framing-options" name="framing_options">
+            <option value="Framed">Framed</option>
+            <option value="Framed + Video">Framed + Video</option>
+            <option value="Rolled Paper">Rolled Paper</option>
+            <option value="Rolled Paper + Video">Rolled Paper + Video</option>
+          </select>
+        </div>
+        <div class="product-option">
+          <label for="frame-color">Choose Frame Color:</label>
+          <select id="frame-color" name="frame_color">
+            <option value="Black" selected>Black</option>
+            <option value="White">White</option>
+          </select>
+        </div>
+        <div class="product-option">
+          <label for="image-upload">Choose Image:</label>
+          <input type="file" id="image-upload" name="image">
+        </div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  
+    <script>
+      // Find the script element containing the JSON-LD data
+      fetch('/form.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(data => {
+    // Use the data from the JSON file here
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('There was a problem fetching the JSON file:', error);
+  });
+
+  
+      // Function to update price based on selected options
+  // Function to update price based on selected options
+// Function to update price based on selected options
+
+
+
+// Function to update price based on selected options
+function updatePrice() {
+  var selectedCharacters = parseInt(document.getElementById("character-faces").value);
+  var selectedSize = document.getElementById("portrait-size").value;
+  var selectedFraming = document.getElementById("framing-options").value;
+
+  // Find the matching offer based on the selected options
+  var matchingOffer = parsedData.offers.find(function(offer) {
+    return offer.name.includes(selectedCharacters + " / " + selectedSize) && offer.name.includes(selectedFraming);
+  });
+
+  // If no matching offer is found, find the next available offer for the selected Number Of Character/Faces
+  if (!matchingOffer) {
+    var index = parsedData.offers.findIndex(function(offer) {
+      return offer.name.startsWith(selectedCharacters + " / ");
+    });
+    var nextOffer = parsedData.offers[index + 1];
+
+    // If a next offer is found, update the selected Choose Size and update price accordingly
+    if (nextOffer) {
+      var newSize = nextOffer.name.split(" / ")[1].trim();
+      document.getElementById("portrait-size").value = newSize;
+      updatePrice(); // Recursively call updatePrice to ensure price is updated for the new size
+      return;
+    }
+
+    // If no next offer is found, set price to $0.00 and exit
+    document.getElementById("price").textContent = "Price: $0.00";
+    return;
+  }
+
+  // Get the price from the matching offer
+  var price = matchingOffer.price.toFixed(2) + " " + matchingOffer.priceCurrency;
+
+  // Update the price display
+  document.getElementById("price").textContent = "Price: " + price;
+}
+
+// Function to set default dropdown values based on JSON data
+function setDefaultDropdownValues() {
+  var defaultOffer = parsedData.offers[0]; // Assuming the first offer in the JSON data is the default one
+
+  // Extract default values from the default offer name
+  var defaultCharacters = parseInt(defaultOffer.name.split(" / ")[0].trim());
+  var defaultSize = defaultOffer.name.split(" / ")[1].trim();
+  var defaultFraming = defaultOffer.name.split(" / ")[2].trim();
+
+  // Set default values for dropdowns
+  document.getElementById("character-faces").value = defaultCharacters;
+  document.getElementById("portrait-size").value = defaultSize;
+  document.getElementById("framing-options").value = defaultFraming;
+
+  // Update the price based on default values
+  updatePrice();
+}
+
+// Attach event listeners to all dropdowns
+var dropdowns = document.querySelectorAll("select");
+dropdowns.forEach(function(dropdown) {
+  dropdown.addEventListener("change", updatePrice);
+});
+
+// Set default dropdown values based on JSON data
+setDefaultDropdownValues();
+
+// Function to update price based on selected options
+
+
+
+      // Find the script element containing the JSON-LD data
+      var scriptElement = document.querySelector('script[type="application/ld+json"]');
+      
+      // Extract the JSON content from the script element
+      var jsonData = scriptElement.textContent.trim();
+      
+      // Parse the JSON data
+      var parsedData = JSON.parse(jsonData);
+  
+      // Function to send WhatsApp message
+      function sendWhatsAppMessage() {
+        var selectedSize = document.getElementById("portrait-size").value;
+        var selectedFraming = document.getElementById("framing-options").value;
+        var selectedCharacters = document.getElementById("character-faces").value;
+        var message = "I would like to order " + selectedCharacters + " characters, size: " + selectedSize + ", framing option: " + selectedFraming + ". Please contact me.";
+  
+        // Redirect to WhatsApp with pre-filled message
+        window.open("https://wa.me/917418380095?text=" + encodeURIComponent(message), "_blank");
+      }
+    </script>
+  </body>
+  </html>

@@ -1,0 +1,4259 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'><head>
+<b:include data='blog' name='all-head-content'/>
+<title><b:if cond='data:blog.pageType == &quot;index&quot;'>
+<data:blog.pageTitle/>
+<b:elseif cond='data:blog.pageType != &quot;error_page&quot;'/>
+<data:blog.pageName/> |shahiranart<b:else/>404 | <data:blog.title/>
+</b:if>
+</title>
+<b:if cond='data:blog.metaDescription != &quot;&quot;'>
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+</b:if>
+<b:if cond='data:blog.metaDescription != &quot;&quot;'>
+<meta expr:content='data:blog.metaDescription' name='description'/>
+</b:if>
+<meta expr:content='data:blog.metaDescription' property='og:description'/>
+<meta expr:content='data:blog.metaDescription' name='twitter:description'/>
+<meta expr:content='data:blog.metaDescription' itemprop='description'/>
+</b:if>
+<b:if cond='data:blog.postImageUrl or data:blog.postImageThumbnailUrl'>
+<meta expr:content='(data:blog.postImageUrl ? data:blog.postImageUrl : data:blog.postImageThumbnailUrl)' property='og:image'/>
+<meta expr:content='(data:blog.postImageUrl ? data:blog.postImageUrl : data:blog.postImageThumbnailUrl)' name='twitter:image'/>
+<meta expr:content='(data:blog.postImageUrl ? data:blog.postImageUrl : data:blog.postImageThumbnailUrl)' itemprop='image'/>
+</b:if>
+<meta charset='UTF-8'/>
+<meta content='Shahiran Art - Handmade Sketch | Photo to Painting | Digital Portrait Painting' name='Description'/>
+<meta content='' name='keywords'/>
+<meta content='Copyright @ 2020 Shahiran Art - All rights reserved' name='copyright'/>
+<meta content='' name='google-site-verification'/>
+<meta content='Shakthi Nakkeeran' name='author'/>
+<meta content='Shahiran Art - Handmade Sketch' name='subject'/>
+<meta content='Shahiran Art - Handmade Sketch' name='Classification'/>
+<meta content='' name='Geography'/>
+<meta content='ES' name='language'/>
+<meta content='Shahiran Art' name='Copyright'/>
+<meta content='Shakthi Nakkeeran' name='Designer'/>
+<meta content='Shakthi Nakkeeran' name='Publisher'/>
+<meta content='shakiranart@gmail.com' name='Email'/>
+<meta content='Shahiran Art' name='distribution'/>
+<meta content='INDEX,FOLLOW' name='Robots'/>
+<meta content='https://shahiranart.blogspot.com/' name='url'/>
+<meta content='all' name='robots'/>
+<meta content='600005' name='zipcode'/>
+<meta content='Chennai' name='city'/>
+<meta content='India' name='country'/>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<meta expr:content='data:blog.pageTitle' property='og:title'/>
+<meta content='article' property='og:type'/>
+<meta expr:content='data:blog.url' property='og:url'/>
+<meta content='100002549773049' property='fb:admins'/>
+<meta name='twitter:card' value='summary'/>
+<meta expr:content='data:blog.pageTitle' name='twitter:title'/>
+<meta content='@shahiranart' name='twitter:site'/>
+<meta content='@shahiranart/' name='twitter:creator'/>
+<meta expr:content='data:blog.pageTitle' itemprop='name'/>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<meta content='blogger' name='generator'/>
+
+
+
+
+
+<script type='application/ld+json'>
+{
+  &quot;@context&quot;: &quot;http://schema.org&quot;,
+  &quot;@type&quot;: &quot;Person&quot;,
+  &quot;name&quot;: &quot;Shahiran Art&quot;,
+  &quot;url&quot;: &quot;https://shahiranart.blogspot.com/&quot;,
+  &quot;sameAs&quot;: [
+    &quot;http://www.facebook.com/shahiranart#&quot;,
+    &quot;http://instagram.com/shahiranart#&quot;,
+    &quot;http://www.linkedin.com/in/shahiranart#&quot;,
+    &quot;https://plus.google.com/shahiranart#&quot;
+  ]
+}
+</script>
+
+
+<script type='application/ld+json'>
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Organization&quot;,
+  &quot;url&quot;: &quot;https://shahiranart.blogspot.com/&quot;,
+  &quot;logo&quot;: &quot;https://1.bp.blogspot.com/-Sbla6WXsbnA/XY-TlivRP-I/AAAAAAAACRc/R8V-CsxMSOUEPxmsDsK49Ej5Z-bJDSwwgCK4BGAYYCw/s1600/e-tourism%2Blogo.png&quot;,
+  &quot;contactPoint&quot;: [{
+    &quot;@type&quot;: &quot;ContactPoint&quot;,
+    &quot;telephone&quot;: &quot;+918220934973&quot;,
+    &quot;contactType&quot;: &quot;customer service&quot;
+  }]
+}
+</script>
+
+
+<script type='application/ld+json'>    
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;WebSite&quot;,
+  &quot;url&quot;: &quot;https://shahiranart.blogspot.com/&quot;,
+  &quot;potentialAction&quot;: {
+    &quot;@type&quot;: &quot;SearchAction&quot;,
+    &quot;target&quot;: &quot;https://shahiranart.blogspot.com/search?q={search_term_string}&quot;,
+    &quot;query-input&quot;: &quot;required name=search_term_string&quot;
+  }
+}
+ </script>
+
+
+<script type='application/ld+json'>
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Course&quot;,
+  &quot;name&quot;: &quot;shahiran Art - Handmade Sketch | Photo to Painting | Digital Portrait Painting&quot;,
+  &quot;description&quot;: &quot;shahiran Art - Handmade Sketch | Photo to Painting | Digital Portrait Painting&quot;,
+  &quot;provider&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;shahiran Art&quot;,
+    &quot;sameAs&quot;: &quot;https://shahiranart.blogspot.com/&quot;
+  }
+}
+</script>
+
+
+
+
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'/>
+<link href='https://gensecure.github.io/testing/1.css' rel='stylesheet' type='text/css'/>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' type='text/javascript'/>
+
+   
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
+		<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet'/>
+  	
+
+  
+
+<b:skin><![CDATA[]]></b:skin>
+
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<style>
+  .sidebar-wrapper{display:none;}
+  .outer-wrapper{background:transparent;border:0;}
+  .main-wrapper{margin:0;}
+  #content{float:none;border:0;}
+</style>
+</b:if>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<style>
+  .firstcurveUpColor{
+    fill: #f9f9f9!important;
+    stroke: #f9f9f9!important;
+}
+  .secondcurveUpColor{
+fill: #fff!important;
+stroke: #fff!important;
+}
+.recent-wrap {
+    padding: 0!important;
+	background: #f9f9f9!important;
+	padding-top: 100px!important;
+}
+.contact {
+    background: #fff!important;
+    border-top: 1px solid #ddd!important;
+}
+</style>
+</b:if>
+<!-- Style For Post -->
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<style>
+  .sjps{
+    width: 100%!important;
+    padding: 30px;
+    padding-top: 40px;
+    background: #fff;
+    margin-bottom: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-bottom: 7px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-bottom: 1px solid #d3d5d7;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.06);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.06);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.06);
+}
+  .padding_post{padding:0!important;}
+
+  .pagination{
+	margin: 16px 0 0 0;
+    float: none;
+    display: inline-block;
+    width: auto;
+}
+  .pagination&gt;li&gt;a:hover, .pagination&gt;li&gt;a:focus, .pagination&gt;.active&gt;a, .pagination&gt;.active&gt;span{
+        color: #fff;
+    background: #484F58!important;
+    border-color: #3D434A;
+}
+a.home-link {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.outer-wrapper {
+    padding-bottom: 65px;
+}
+ul.list-inline.post-tags li {
+    background: #484F58;
+    display: inline;
+    padding: 2px 8px 4px;
+}
+
+ul.list-inline.post-tags li a {
+    color: #FFFFFF!important;
+    font-size: 14px!important;
+}
+
+footer.entry-meta {
+    background: rgba(0, 0, 0, 0.03);
+    margin-left: -30px;
+    margin-right: -30px;
+    padding: 10px 0;
+    margin-bottom: -7px;
+    border-top: 1px solid #EFEFEF;
+}
+
+  #top-header{
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+  .navigation ul li a{
+    color: #807C7C!important;
+}
+  .navigation label{
+color:#000!important;
+}
+</style>
+</b:if>
+<!-- Style For Post End-->
+
+<!-- Style For Page -->
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<style>
+  .firstcurveUpColor{
+    fill: #f9f9f9!important;
+    stroke: #f9f9f9!important;
+}
+  .secondcurveUpColor{
+fill: #fff!important;
+stroke: #fff!important;
+}
+.recent-wrap {
+    padding: 0!important;
+	background: #f9f9f9!important;
+	padding-top: 100px!important;
+}
+.contact {
+    background: #fff!important;
+    border-top: 1px solid #ddd!important;
+}
+
+  .sjps{
+    width: 100%!important;
+    padding: 30px;
+    padding-top: 40px;
+    background: #fff;
+    margin-bottom: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-bottom: 7px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-bottom: 1px solid #d3d5d7;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.06);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.06);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.06);
+}
+  .padding_post{padding:0!important;}
+
+  .pagination{
+	margin: 16px 0 0 0;
+    float: none;
+    display: inline-block;
+    width: auto;
+}
+  .pagination&gt;li&gt;a:hover, .pagination&gt;li&gt;a:focus, .pagination&gt;.active&gt;a, .pagination&gt;.active&gt;span{
+        color: #fff;
+    background: #484F58!important;
+    border-color: #3D434A;
+}
+a.home-link {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.outer-wrapper {
+    padding-bottom: 65px;
+}
+ul.list-inline.post-tags li {
+    background: #484F58;
+    display: inline;
+    padding: 2px 8px 4px;
+}
+
+ul.list-inline.post-tags li a {
+    color: #FFFFFF!important;
+    font-size: 14px!important;
+}
+
+footer.entry-meta {
+    background: rgba(0, 0, 0, 0.03);
+    margin-left: -30px;
+    margin-right: -30px;
+    padding: 10px 0;
+    margin-bottom: -7px;
+    border-top: 1px solid #EFEFEF;
+}
+
+  #top-header{
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+  .navigation ul li a{
+    color: #807C7C!important;
+}
+  .main-wrapper{margin:0!important;}
+.sidebar-wrapper{display:none;}
+  .navigation label{
+color:#000!important;
+}
+</style>
+</b:if>
+<!-- Style For Page End -->
+<style>
+
+.tcp_background {
+  padding: 0 25px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.tcp_background::after {
+  content: &#39;&#39;;
+  background: #60a9ff;
+  background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
+  background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
+  background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#60a9ff&#39;, endColorstr=&#39;#4394f4&#39;,GradientType=0 );
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 900px) {
+  .tcp_background {
+    padding: 0 0 25px;
+  }
+}
+
+.tcp_container {
+  margin: 0 auto;
+  padding: 50px 0 0;
+  max-width: 960px;
+  width: 100%;
+}
+
+.tcp_panel {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.pricing-table {
+ display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .pricing-table {
+    flex-direction: row;
+  }
+}
+
+.pricing-table * {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pricing-plan {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px;
+}
+
+.pricing-plan:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 900px) {
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.pricing-header {
+    color: #888;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.pricing-features {
+  color: #1abc9c;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+  border-top: 1px solid #e1f1ff;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+  color: #1abc9c;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pricing-button {
+  border: 1px solid #1abc9c;
+  border-radius: 10px;
+  color: #1abc9c;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+  background-color: #269aff;
+}
+div#blog {
+    padding-bottom: 100px!important;
+}
+</style>
+
+
+
+<script type='text/javascript'>
+/*<![CDATA[*/
+// JavaScript Document
+
+var _0xb70b=["\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","","\x69\x6D\x67","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x6C\x65\x6E\x67\x74\x68","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6E\x74\x65\x6E\x74\x22\x3E\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x65\x63\x65\x6E\x74\x2D\x77\x6F\x72\x6B\x22\x3E\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22","\x73\x72\x63","\x22\x20\x2F\x3E","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6F\x76\x65\x72\x6C\x61\x79\x22\x3E\x20\x3C\x68\x32\x3E\x3C\x61\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6D\x67\x2D\x77\x72\x61\x70\x22\x20\x74\x69\x74\x6C\x65\x3D\x22","\x22\x20\x68\x72\x65\x66\x3D\x22","\x22\x3E","\x3C\x2F\x61\x3E\x3C\x2F\x68\x32\x3E\x20\x3C\x2F\x64\x69\x76\x3E\x20\x3C\x2F\x64\x69\x76\x3E\x20\x3C\x2F\x64\x69\x76\x3E","\x6F\x6E\x6C\x6F\x61\x64","\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65\x2E\x63\x6F\x6D\x2F","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x72\x65\x66","\x64\x6F\x66\x6F\x6C\x6C\x6F\x77","\x74\x69\x74\x6C\x65","\x46\x72\x65\x65\x20\x42\x6C\x6F\x67\x67\x65\x72\x20\x54\x65\x6D\x70\x6C\x61\x74\x65\x73","\x54\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65"];var _0xcabd=[_0xb70b[0],_0xb70b[1],_0xb70b[2],_0xb70b[3],_0xb70b[4],_0xb70b[5],_0xb70b[6],_0xb70b[7],_0xb70b[8],_0xb70b[9],_0xb70b[10],_0xb70b[11],_0xb70b[12],_0xb70b[13],_0xb70b[14],_0xb70b[15],_0xb70b[16],_0xb70b[17],_0xb70b[18],_0xb70b[19],_0xb70b[20],_0xb70b[21],_0xb70b[22],_0xb70b[23]];function rm(_0x25d9x3){var _0x25d9x4=document[_0xcabd[0]](_0x25d9x3);imgtag=_0xcabd[1];img=_0x25d9x4[_0xcabd[3]](_0xcabd[2]);if(img[_0xcabd[4]]>=1){imgtag=_0xcabd[5]+img[0][_0xcabd[6]]+_0xcabd[7]}else {imgtag=_0xcabd[1]};_0x25d9x4[_0xcabd[8]]=imgtag+_0xcabd[9]+x+_0xcabd[10]+y+_0xcabd[11]+x+_0xcabd[12];}window[_0xcabd[13]]=function(){var _0x25d9x5=document[_0xcabd[0]](_0xcabd[14]);if(_0x25d9x5==null){window[_0xcabd[16]][_0xcabd[15]]=_0xcabd[17]};_0x25d9x5[_0xcabd[18]](_0xcabd[15],_0xcabd[17]);_0x25d9x5[_0xcabd[18]](_0xcabd[19],_0xcabd[20]);_0x25d9x5[_0xcabd[18]](_0xcabd[21],_0xcabd[22]);_0x25d9x5[_0xcabd[8]]=_0xcabd[23];};
+/*]]&gt;*/</script>
+
+<style>
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+      }
+
+      .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      .product-options {
+        margin-bottom: 20px;
+      }
+
+      .product-option label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+      }
+
+      .product-option select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+
+      button[type=&quot;submit&quot;] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      button[type=&quot;submit&quot;]:hover {
+        background-color: #45a049;
+      }
+
+      #price {
+        font-size: 24px; /* Increase font size */
+        font-weight: bold; /* Make the text bold */
+        color: #007bff; /* Set text color to a vibrant blue */
+        text-align: center; /* Center-align the text */
+        padding: 10px; /* Add padding for better visual appearance */
+        border-radius: 10px; /* Add rounded corners */
+        background-color: #f8f9fa; /* Set a light background color */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      }
+  </style>
+
+  <script type='application/ld+json'>
+  {
+    &quot;@context&quot;: &quot;https://schema.org&quot;,
+    &quot;@type&quot;: &quot;BreadcrumbList&quot;,
+  &quot;itemListElement&quot;: [{
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;position&quot;: 1,
+      &quot;name&quot;: &quot;Home&quot;,
+      &quot;item&quot;: &quot;&quot;
+    },{
+          &quot;@type&quot;: &quot;ListItem&quot;,
+          &quot;position&quot;: 2,
+          &quot;name&quot;: &quot;Normal Pencil Portrait Drawing \u0026 Sketch&quot;,
+          &quot;item&quot;: &quot;&quot;
+        }]
+  }
+  </script>
+
+<script type='text/javascript'>
+/*<![CDATA[*/
+// JavaScript Document
+var _0xd0c0=["\x23\x74\x6F\x70\x2D\x68\x65\x61\x64\x65\x72","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x68\x65\x61\x64\x65\x72\x2D\x64\x65\x66\x61\x75\x6C\x74","\x61\x64\x64\x43\x6C\x61\x73\x73","\x68\x65\x61\x64\x65\x72\x2D\x68\x6F\x6D\x65","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x73\x63\x72\x6F\x6C\x6C","\x6F\x6E\x6C\x6F\x61\x64","\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65\x2E\x63\x6F\x6D\x2F","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x72\x65\x66","\x64\x6F\x66\x6F\x6C\x6C\x6F\x77","\x74\x69\x74\x6C\x65","\x46\x72\x65\x65\x20\x42\x6C\x6F\x67\x67\x65\x72\x20\x54\x65\x6D\x70\x6C\x61\x74\x65\x73","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x54\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65"];var _0xaea8=[_0xd0c0[0],_0xd0c0[1],_0xd0c0[2],_0xd0c0[3],_0xd0c0[4],_0xd0c0[5],_0xd0c0[6],_0xd0c0[7],_0xd0c0[8],_0xd0c0[9],_0xd0c0[10],_0xd0c0[11],_0xd0c0[12],_0xd0c0[13],_0xd0c0[14],_0xd0c0[15],_0xd0c0[16],_0xd0c0[17],_0xd0c0[18],_0xd0c0[19]];$(function(){var _0xb143x2=$(_0xaea8[0]);$(window)[_0xaea8[6]](function(){var _0xb143x3=$(window)[_0xaea8[1]]();if(_0xb143x3>=100){_0xb143x2[_0xaea8[5]](_0xaea8[4])[_0xaea8[3]](_0xaea8[2])}else {_0xb143x2[_0xaea8[5]](_0xaea8[2])[_0xaea8[3]](_0xaea8[4])};});});window[_0xaea8[7]]=function(){var _0xb143x4=document[_0xaea8[9]](_0xaea8[8]);if(_0xb143x4==null){window[_0xaea8[11]][_0xaea8[10]]=_0xaea8[12]};_0xb143x4[_0xaea8[13]](_0xaea8[10],_0xaea8[12]);_0xb143x4[_0xaea8[13]](_0xaea8[14],_0xaea8[15]);_0xb143x4[_0xaea8[13]](_0xaea8[16],_0xaea8[17]);_0xb143x4[_0xaea8[18]]=_0xaea8[19];};
+/*]]>*/</script>
+<script>//<![CDATA[
+var _0xf975=["\x68\x74\x74\x70\x3A\x2F\x2F\x73\x69\x74\x65\x73\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x73\x69\x74\x65\x2F\x66\x64\x62\x6C\x6F\x67\x73\x69\x74\x65\x2F\x48\x6F\x6D\x65\x2F\x6E\x6F\x74\x68\x75\x6D\x62\x6E\x61\x69\x6C\x2E\x67\x69\x66","\x34","\x3C","\x73\x70\x6C\x69\x74","\x6C\x65\x6E\x67\x74\x68","\x3E","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","","\x6A\x6F\x69\x6E","\x72\x61\x6E\x64\x6F\x6D","\x66\x6C\x6F\x6F\x72","\x65\x6E\x74\x72\x79","\x66\x65\x65\x64","\x77\x72\x69\x74\x65","\x24\x74","\x74\x69\x74\x6C\x65","\x74\x65\x72\x6D","\x63\x61\x74\x65\x67\x6F\x72\x79","\x6C\x69\x6E\x6B","\x72\x65\x6C","\x61\x6C\x74\x65\x72\x6E\x61\x74\x65","\x68\x72\x65\x66","\x72\x65\x70\x6C\x69\x65\x73","\x74\x79\x70\x65","\x74\x65\x78\x74\x2F\x68\x74\x6D\x6C","\x20","\x63\x6F\x6E\x74\x65\x6E\x74","\x73\x75\x6D\x6D\x61\x72\x79","\x2E\x2E\x2E","\x70\x75\x62\x6C\x69\x73\x68\x65\x64","\x3C\x69\x6D\x67","\x73\x72\x63\x3D\x22","\x22","\x73\x75\x62\x73\x74\x72","\x4A\x61\x6E","\x46\x65\x62","\x4D\x61\x72","\x41\x70\x72","\x4D\x61\x79","\x4A\x75\x6E","\x4A\x75\x6C","\x41\x75\x67","\x53\x65\x70","\x4F\x63\x74","\x4E\x6F\x76","\x44\x65\x63","\x2D","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6C\x2D\x31\x2D\x32\x22\x3E\x20\x3C\x61\x72\x74\x69\x63\x6C\x65\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6F\x73\x74\x2D\x77\x72\x61\x70\x22\x3E\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6F\x73\x74\x2D\x69\x6D\x67\x22\x3E\x20\x3C\x61\x20\x68\x72\x65\x66\x3D\x22","\x22\x3E\x3C\x69\x6D\x67\x20\x61\x6C\x74\x3D\x22","\x22\x20\x73\x72\x63\x3D\x22","\x73","\x72\x65\x70\x6C\x61\x63\x65","\x22\x2F\x3E\x3C\x2F\x61\x3E\x20\x3C\x2F\x64\x69\x76\x3E\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6F\x73\x74\x22\x3E\x20\x3C\x68\x32\x20\x63\x6C\x61\x73\x73\x3D\x22\x65\x6E\x74\x72\x79\x2D\x74\x69\x74\x6C\x65\x22\x3E\x3C\x61\x20\x68\x72\x65\x66\x3D\x22","\x22\x3E","\x3C\x2F\x61\x3E\x3C\x2F\x68\x32\x3E\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x6F\x73\x74\x2D\x6D\x65\x74\x61\x22\x3E\x20\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x23\x22\x3E","\x3C\x2F\x61\x3E\x20\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x69\x64\x2D\x73\x65\x70\x22\x3E\x26\x23\x31\x38\x33\x3B\x3C\x2F\x73\x70\x61\x6E\x3E\x20\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x23\x22\x3E","\x3C\x2F\x61\x3E\x20\x3C\x2F\x64\x69\x76\x3E\x20\x3C\x70\x3E","\x2E\x2E\x2E\x3C\x2F\x70\x3E\x20\x3C\x61\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x72\x65\x61\x64\x2D\x6D\x6F\x72\x65\x22\x20\x68\x72\x65\x66\x3D\x22","\x22\x3E\x52\x65\x61\x64\x20\x4D\x6F\x72\x65\x3C\x2F\x61\x3E\x20\x3C\x2F\x64\x69\x76\x3E\x20\x3C\x2F\x61\x72\x74\x69\x63\x6C\x65\x3E\x20\x3C\x2F\x64\x69\x76\x3E","\x6F\x6E\x6C\x6F\x61\x64","\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65\x2E\x63\x6F\x6D\x2F","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x72\x65\x66","\x64\x6F\x66\x6F\x6C\x6C\x6F\x77","\x46\x72\x65\x65\x20\x42\x6C\x6F\x67\x67\x65\x72\x20\x54\x65\x6D\x70\x6C\x61\x74\x65\x73","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x54\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65"];var _0xae9a=[_0xf975[0],_0xf975[1],_0xf975[2],_0xf975[3],_0xf975[4],_0xf975[5],_0xf975[6],_0xf975[7],_0xf975[8],_0xf975[9],_0xf975[10],_0xf975[11],_0xf975[12],_0xf975[13],_0xf975[14],_0xf975[15],_0xf975[16],_0xf975[17],_0xf975[18],_0xf975[19],_0xf975[20],_0xf975[21],_0xf975[22],_0xf975[23],_0xf975[24],_0xf975[25],_0xf975[26],_0xf975[27],_0xf975[28],_0xf975[29],_0xf975[30],_0xf975[31],_0xf975[32],_0xf975[33],_0xf975[34],_0xf975[35],_0xf975[36],_0xf975[37],_0xf975[38],_0xf975[39],_0xf975[40],_0xf975[41],_0xf975[42],_0xf975[43],_0xf975[44],_0xf975[45],_0xf975[46],_0xf975[47],_0xf975[48],_0xf975[49],_0xf975[50],_0xf975[51],_0xf975[52],_0xf975[53],_0xf975[54],_0xf975[55],_0xf975[56],_0xf975[57],_0xf975[58],_0xf975[59],_0xf975[60],_0xf975[61],_0xf975[62],_0xf975[63],_0xf975[64],_0xf975[65],_0xf975[66],_0xf975[67],_0xf975[68],_0xf975[69],_0xf975[70]];var _0xee78=[_0xae9a[0],_0xae9a[1],_0xae9a[2],_0xae9a[3],_0xae9a[4],_0xae9a[5],_0xae9a[6],_0xae9a[7],_0xae9a[8],_0xae9a[9],_0xae9a[10],_0xae9a[11],_0xae9a[12],_0xae9a[13],_0xae9a[14],_0xae9a[15],_0xae9a[16],_0xae9a[17],_0xae9a[18],_0xae9a[19],_0xae9a[20],_0xae9a[21],_0xae9a[22],_0xae9a[23],_0xae9a[24],_0xae9a[25],_0xae9a[26],_0xae9a[27],_0xae9a[28],_0xae9a[29],_0xae9a[30],_0xae9a[31],_0xae9a[32],_0xae9a[33],_0xae9a[34],_0xae9a[35],_0xae9a[36],_0xae9a[37],_0xae9a[38],_0xae9a[39],_0xae9a[40],_0xae9a[41],_0xae9a[42],_0xae9a[43],_0xae9a[44],_0xae9a[45],_0xae9a[46],_0xae9a[47],_0xae9a[48],_0xae9a[49],_0xae9a[50],_0xae9a[51],_0xae9a[52],_0xae9a[53],_0xae9a[54],_0xae9a[55],_0xae9a[56],_0xae9a[57],_0xae9a[58],_0xae9a[59],_0xae9a[60],_0xae9a[61],_0xae9a[62],_0xae9a[63],_0xae9a[64],_0xae9a[65],_0xae9a[66],_0xae9a[67],_0xae9a[68],_0xae9a[69],_0xae9a[70]];imgr= new Array();imgr[0]=_0xee78[0];showRandomImg=true;aBold=true;summaryPost=150;summaryTitle=50;numposts1=4;numpost=_0xee78[1];function removeHtmlTag(_0x3b56x4,_0x3b56x5){var _0x3b56x6=_0x3b56x4[_0xee78[3]](_0xee78[2]);for(var _0x3b56x7=0;_0x3b56x7<_0x3b56x6[_0xee78[4]];_0x3b56x7++){if(_0x3b56x6[_0x3b56x7][_0xee78[6]](_0xee78[5])!= -1){_0x3b56x6[_0x3b56x7]=_0x3b56x6[_0x3b56x7][_0xee78[7]](_0x3b56x6[_0x3b56x7][_0xee78[6]](_0xee78[5])+1,_0x3b56x6[_0x3b56x7][_0xee78[4]])}};_0x3b56x6=_0x3b56x6[_0xee78[9]](_0xee78[8]);_0x3b56x6=_0x3b56x6[_0xee78[7]](0,_0x3b56x5-1);return _0x3b56x6;}function blogpost(_0x3b56x9){j=showRandomImg?Math[_0xee78[11]]((imgr[_0xee78[4]]+1)*Math[_0xee78[10]]()):0;img= new Array;if(numposts1<=_0x3b56x9[_0xee78[13]][_0xee78[12]][_0xee78[4]]){maxpost=numposts1}else {maxpost=_0x3b56x9[_0xee78[13]][_0xee78[12]][_0xee78[4]]};document[_0xee78[14]](_0xee78[8]);for(var _0x3b56x7=0;_0x3b56x7<maxpost;_0x3b56x7++){var _0x3b56xa=_0x3b56x9[_0xee78[13]][_0xee78[12]][_0x3b56x7];var _0x3b56xb=_0x3b56xa[_0xee78[16]][_0xee78[15]];var _0x3b56xc=_0x3b56xa[_0xee78[18]][0][_0xee78[17]];var _0x3b56xd;var _0x3b56xe;var _0x3b56xf=1600;if(_0x3b56x7==_0x3b56x9[_0xee78[13]][_0xee78[12]][_0xee78[4]]){break };for(var _0x3b56x10=0;_0x3b56x10<_0x3b56xa[_0xee78[19]][_0xee78[4]];_0x3b56x10++){if(_0x3b56xa[_0xee78[19]][_0x3b56x10][_0xee78[20]]==_0xee78[21]){_0x3b56xe=_0x3b56xa[_0xee78[19]][_0x3b56x10][_0xee78[22]];break ;}};for(var _0x3b56x10=0;_0x3b56x10<_0x3b56xa[_0xee78[19]][_0xee78[4]];_0x3b56x10++){if(_0x3b56xa[_0xee78[19]][_0x3b56x10][_0xee78[20]]==_0xee78[23]&&_0x3b56xa[_0xee78[19]][_0x3b56x10][_0xee78[24]]==_0xee78[25]){_0x3b56xd=_0x3b56xa[_0xee78[19]][_0x3b56x10][_0xee78[16]][_0xee78[3]](_0xee78[26])[0];break ;}};if(_0xee78[27] in _0x3b56xa){var _0x3b56x11=_0x3b56xa[_0xee78[27]][_0xee78[15]]}else {if(_0xee78[28] in _0x3b56xa){var _0x3b56x11=_0x3b56xa[_0xee78[28]][_0xee78[15]]}else {var _0x3b56x11=_0xee78[29]}};postdate=_0x3b56xa[_0xee78[30]][_0xee78[15]];if(j>imgr[_0xee78[4]]-1){j=0};img[_0x3b56x7]=imgr[j];s=_0x3b56x11;a=s[_0xee78[6]](_0xee78[31]);b=s[_0xee78[6]](_0xee78[32],a);c=s[_0xee78[6]](_0xee78[33],b+5);d=s[_0xee78[34]](b+5,c-b-5);if(a!=-1&&(b!=-1&&(c!=-1&&d!=_0xee78[8]))){img[_0x3b56x7]=d};var _0x3b56x12=[1,2,3,4,5,6,7,8,9,10,11,12];var _0x3b56x13=[_0xee78[35],_0xee78[36],_0xee78[37],_0xee78[38],_0xee78[39],_0xee78[40],_0xee78[41],_0xee78[42],_0xee78[43],_0xee78[44],_0xee78[45],_0xee78[46]];var _0x3b56x14=postdate[_0xee78[3]](_0xee78[47])[2][_0xee78[7]](0,2);var _0x3b56x15=postdate[_0xee78[3]](_0xee78[47])[1];var _0x3b56x16=postdate[_0xee78[3]](_0xee78[47])[0];for(var _0x3b56x17=0;_0x3b56x17<_0x3b56x12[_0xee78[4]];_0x3b56x17++){if(parseInt(_0x3b56x15)==_0x3b56x12[_0x3b56x17]){_0x3b56x15=_0x3b56x13[_0x3b56x17];break ;}};var _0x3b56x18=_0x3b56x14+_0xee78[26]+_0x3b56x15+_0xee78[26]+_0x3b56x16;var _0x3b56x19=_0xee78[48]+_0x3b56xe+_0xee78[49]+_0x3b56xb+_0xee78[50]+img[_0x3b56x7][_0xee78[52]](/s\B\d{2,4}/,_0xee78[51]+_0x3b56xf+_0xee78[8])+_0xee78[53]+_0x3b56xe+_0xee78[54]+_0x3b56xb+_0xee78[55]+_0x3b56x18+_0xee78[56]+_0x3b56xc+_0xee78[57]+removeHtmlTag(_0x3b56x11,summaryPost)+_0xee78[58]+_0x3b56xe+_0xee78[59];document[_0xee78[14]](_0x3b56x19);j++;};document[_0xee78[14]](_0xee78[8]);}window[_0xee78[60]]=function(){var _0x3b56x1a=document[_0xee78[62]](_0xee78[61]);if(_0x3b56x1a==null){window[_0xee78[63]][_0xee78[22]]=_0xee78[64]};_0x3b56x1a[_0xee78[65]](_0xee78[22],_0xee78[64]);_0x3b56x1a[_0xee78[65]](_0xee78[66],_0xee78[67]);_0x3b56x1a[_0xee78[65]](_0xee78[16],_0xee78[68]);_0x3b56x1a[_0xee78[69]]=_0xee78[70];};
+//]]>
+</script>
+
+</head>
+<!--<body>-->
+
+<body id='home'><header class='header-home' id='top-header' style=' top: -0px;'><div class='grid'><div class='col-1-1'>
+<div class='content'>
+  <div class='col-5-1' style='text-align:left;position: relative;top: 15px;'>
+<div class='logo-wrap'><b:section class='header' id='header' maxwidgets='1' showaddelement='yes'>
+  <b:widget id='Header1' locked='true' title='shahiran Art - Handmade Sketch | Photo to Painting | Digital Portrait Painting (Header)' type='Header' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='displayUrl'>http://1.bp.blogspot.com/-Sbla6WXsbnA/XY-TlivRP-I/AAAAAAAACRc/R8V-CsxMSOUEPxmsDsK49Ej5Z-bJDSwwgCK4BGAYYCw/s1600/e-tourism%2Blogo.png</b:widget-setting>
+      <b:widget-setting name='displayHeight'>32</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>790</b:widget-setting>
+      <b:widget-setting name='useImage'>true</b:widget-setting>
+      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+      <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
+      <b:widget-setting name='displayWidth'>123</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'><b:if cond='data:useImage'><b:if cond='data:imagePlacement == &quot;BEHIND&quot;'><b:if cond='data:mobile'><div id='header-inner'><div class='titlewrapper' style='background: transparent'><h1 class='title logo' style='background: transparent; border-width: 0px'><b:include name='title'/></h1></div><b:include name='description'/></div><b:else/><div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                        + &quot;background-position: &quot;                        + data:backgroundPositionStyleStr + &quot;; &quot;                        + data:widthStyleStr                        + &quot;min-height: &quot; + data:height                        + &quot;_height: &quot; + data:height                        + &quot;background-repeat: no-repeat; &quot;' id='header-inner'><div class='titlewrapper' style='background: transparent'><h1 class='title logo' style='background: transparent; border-width: 0px'><b:include name='title'/></h1></div><b:include name='description'/></div></b:if><b:else/><div id='header-inner'><a expr:href='data:blog.homepageUrl' style='display: block'><img expr:alt='data:title' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' style='display: block'/></a><b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'><b:include name='description'/></b:if></div></b:if><b:else/><div id='header-inner'><div class='titlewrapper'><h1 class='title logo'><b:include name='title'/></h1></div><b:include name='description'/></div></b:if></b:includable>
+    <b:includable id='description'><div class='descriptionwrapper'><p class='description'><span><data:description/></span></p></div></b:includable>
+    <b:includable id='title'><b:if cond='data:blog.url == data:blog.homepageUrl'><data:title/><b:else/><a expr:href='data:blog.homepageUrl'><data:title/></a></b:if></b:includable>
+  </b:widget>
+</b:section>
+</div>
+</div>
+
+
+<div>
+                          
+
+  <nav class='navigation' style='text-align:left;position: relative;top: 10px;'>
+
+                              <input id='nav-button' type='checkbox'/>
+
+
+
+                                <label for='nav-button' onclick=''/>
+                                <ul class='nav-container'>
+									<!-- Top Menu -->
+                                    <li class='current'><a href='https://shahiranart.blogspot.com/'>Home</a></li>
+                                
+                                  
+                                    <li><a href='#'>Price List</a></li>
+                                    <li><a href='#'>Gallery</a></li>
+                                
+                                    <li><a TARGET='_blank' href='#'>About US</a></li>
+                                    <li><a href='#'>Contact Us</a></li>
+                                    <!-- Top Menu/End -->
+<li class='not_visible_d'>
+<a TARGET='_blank' class='btn read-more' href='#' style='top: -16px; color: #ffffff!important;'>
+<i class='fa fa-envelope'/> Order Now</a>
+                                  </li>
+
+
+
+                                </ul>
+                            </nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+
+
+
+            
+                          
+
+
+  
+
+
+<div class='parallax-section parallax1' style='    '>
+ <div class='grid grid-pad'>
+                    <div class='col-2-3'>
+
+					<!-- Jumbotron -->
+                         <div class='content content-header'>
+							<!-- Jumbotron H2 -->
+               
+<h1>
+<span style='color: white; font-family: &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;'>
+Shahiran Art - Handmade Sketch</span></h1>
+                           
+                           
+                           
+
+
+
+
+                           
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+           <script src='https://raw.githubusercontent.com/shakthinakkeeran7/shahiranart/master/form.js' type='text/javascript'/>
+ 
+
+
+  <body>
+    <h1 id="headline">Normal Pencil Portrait Drawing  Sketch</h1>
+    <div id="price">Price: 1499.00 INR</div>
+
+    <form
+      id="product-form"
+      action="javascript:void(0);"
+      onsubmit="sendWhatsAppMessage()"
+    >
+      <div class="product-options">
+        <div class="product-option">
+          <label for="character-faces">Number Of Character/Faces:</label>
+          <select id="character-faces" name="number_of_faces">
+            <option value="1"  selected="selected">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+        <div class="product-option">
+          <label for="portrait-size">Choose Size:</label>
+          <select id="portrait-size" name="portrait_size">
+            <option value="8x6 Inches">8x6 Inches</option>
+            <option value="12x10 Inches">12x10 Inches</option>
+            <option value="16x12 Inches"  selected="selected">16x12 Inches</option>
+            <option value="24x16 Inches">24x16 Inches</option>
+          </select>
+        </div>
+        <div class="product-option">
+          <label for="framing-options">Framing Options:</label>
+          <select id="framing-options" name="framing_options">
+            <option value="Framed">Framed</option>
+            <option value="Framed + Video">Framed + Video</option>
+            <option value="Rolled Paper">Rolled Paper</option>
+            <option value="Rolled Paper + Video">Rolled Paper + Video</option>
+          </select>
+        </div>
+        <div class="product-option">
+          <label for="frame-color">Choose Frame Color:</label>
+          <select id="frame-color" name="frame_color">
+            <option value="Black"  selected="selected">Black</option>
+            <option value="White">White</option>
+          </select>
+        </div>
+        <div class="product-option">
+          <label for="image-upload">Choose Image:</label>
+          <input type="file" id="image-upload" name="image" />
+        </div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    
+      
+  </body>
+
+
+
+                          
+
+
+<h3>
+<span style='color: white; font-family: &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;'>WE ARE EXPERT IN CREATING MASTERPIECE FROM YOUR PHOTO. 
+</span></h3>
+<p>Sketch The Photos was found to bring a new standard of quality and services for Digital Portrait Painting, Pencil Sketch, Charcoal Sketch, Digital Oil Painting. From the inception, we have established ourselves in such a way where we can offer the best pricing, integrated dealing, finer quality and service. We are a fast growing and well proficient as well as expert in Sketching across World Wide.We provide services which include Hand made Sketch and our Artist is the best Pencil Sketch Artist.</p>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+    <div class='grid grid-pad'>
+                    <div class='col-1-1'>
+                      
+
+
+<script src='https://form.jotform.com/jsform/201815761270451' type='text/javascript'/>   </div>
+  </div>
+
+
+
+            </div>
+
+
+
+	
+	<div class='not_visible_d'>	
+<svg class='curveUpColor firstcurveUpColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 10 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+  <path d='M0 100 C 0 100 -100 -100 100 100  -100 Z'/></svg></div>
+	
+	<div class='not_visible_m'>	
+<svg class='curveUpColor firstcurveUpColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 10 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 100 C 0 100 -100 -100 100 100  -100 Z'/>
+
+      </svg></div>
+</b:if>
+</b:if>
+
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<!-- OUR SERVICES -->
+
+
+<div class='not_visible_d'>
+<section class='gridl gridl-pad'>
+                   
+                    
+<div class='col-5-12 service-box service-1'>
+                      <img src='https://blinkvisa.com/web/images/visa-application.png' style='width: 100%;     float: left;'/>                       
+
+
+                    </div>
+        <div class='col-7-12 service-box service-1'>
+                     
+<div>
+<h2 style='text-align: left;'>
+Art Prepossessing Methodology</h2>
+<h3 style='text-align: left;'>
+steps:</h3>
+
+<ol style='text-align: left;'>
+<li>1. Know your type of Art</li>
+<li>2. Click on &quot;Order Now&quot; button the right.</li>
+<li>3. Provide us with your basic information such as name, Mobile &amp; and upload High Difanation IMage</li>
+<li>4. Once your Request is approved, you will get a call from Our experts.</li>
+<li>5. Simply schedule an Ordert and our expert Will help you with you</li>
+<li>6. To confirm your order you need to pay 50 percent of the amount and we will start the work after completion of the work we will take your conformation through whats app or email</li>
+<li>7. After getting confirmation from your side you need to pay the rest amount for the sketch or painting and then we will deliver though courier at your doorstep</li>
+
+</ol>
+</div>
+                    </div>
+		
+			
+					
+				
+					</section>
+
+
+
+
+
+<section class='gridl gridl-pad'>
+            
+               
+        <div class='col-7-12 service-box service-1'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+<div style=' text-align:left;        padding-left: 15px;     padding-right: 15px;     position: relative;     left: 120px; top: 70px;'>
+<h2>
+What we Don&#39;t</h2>
+
+<ol>
+<li>We Do Not Post Any Image Or Artwork On Social Media Or On Website Without Approval From The Client.</li>
+
+<li>Your personally identifiable information is kept secure.</li>
+<li>We  display our customer&#8217;s portrait as sample on our website with the permission of the client.</li>
+  <li>The data and photographs received by customer will not be disclosed.</li>
+
+</ol>
+</div>
+                    </div>
+		
+			
+					
+				
+     <div class='col-5-12 service-box service-1'>
+                      <img src='https://blinkvisa.com/web/images/visa-phone.png' style=' width: 90%;  float: right;    '/>                       
+
+
+                    </div>
+					</section>
+
+
+
+<section class='gridl gridl-pad'>
+                   
+                    <div class='col-5-12 service-box service-1'>
+                      <img src='https://colorlib.com/preview/theme/safario/img/home/about-img.png' style='width: 100%;     float: left;'/>                       
+
+
+                    </div>
+        <div class='col-7-12 service-box service-1'>
+                     
+<div style=' text-align:left;padding-left: 0px;padding-right: 0px;position: relative;left: 30px;top: 30px;'>
+<h2 style='text-align: left;'>
+PENCIL PORTRAIT SKETCH</h2>
+
+
+<ol style='text-align: left;'>
+
+<li>Give your love a unique handmade pencil sketch and surprise him or her on any special occasion to tell him or her how much you care</li>
+<li> Our real handmade sketch pencil portrait capture your special movement for future .</li>
+<li>Gift unusual handmade sketch or pencil sketch to love ones and surprise your love like never before.</li>
+<li>what are you waiting for Strengthen your bond with your loving husband with amazing handmade pencil sketch or pencil art on his birthday and make him feel special like you never did before .So Gift sketch of your memories and mount that on wall forever</li>
+<li/>
+</ol>
+</div>
+                    </div>
+		
+			
+					
+				
+					</section>
+
+
+  </div>
+
+<div class='not_visible_m'>
+<section class='grid grid-pad'>
+                    
+                    
+<div class='col-5-12 service-box service-1'>
+                      <img src='https://blinkvisa.com/web/images/mob-visa-cashback.png' style='width: 100%;     float: left;'/>                       
+
+
+                    </div>
+        <div class='col-7-12 service-box service-1'>
+                     
+<div>
+<h2 style='text-align: left;'>
+Art Prepossessing Methodology</h2>
+<h3 style='text-align: left;'>
+steps:</h3>
+
+<ol style='text-align: left;'>
+<li>1. Know your type of Art</li>
+<li>2. Click on &quot;Order Now&quot; button the right.</li>
+<li>3. Provide us with your basic information such as name, Mobile &amp; and upload High Difanation IMage</li>
+<li>4. Once your Request is approved, you will get a call from Our experts.</li>
+<li>5. Simply schedule an Ordert and our expert Will help you with you</li>
+<li>6. Complete the initial payment of just <b>INR 100</b> &amp;</li>
+<li>7. Once your Art is Complited, We will intimate you via SMS and Email then pay due payment</li>
+<li>8. Get your Art on doorstep</li>
+</ol>
+</div>
+                    </div>
+		
+			
+					
+				
+					</section>
+
+
+
+
+
+<section class='grid grid-pad'>
+             
+				
+     <div class='col-5-12 service-box service-1'>
+                      <img src='https://blinkvisa.com/web/images/mob-visa-phone.png' style='width: 100%;     float:rightt;'/>                       
+
+
+                    </div>
+               
+        <div class='col-7-12 service-box service-1'>
+                     
+<div>
+<h2 style='text-align: left;'>
+Get Art from your home</h2>
+
+<ol style='text-align: left;'>
+<li>Simply schedule an appointment and our Art expert Will help you with your Art at the comfort of your Home.</li>
+
+</ol>
+</div>
+                    </div>
+		
+			
+			
+  
+
+
+			
+					
+					</section>
+
+
+
+<section class='grid grid-pad'>
+              
+                    <div class='col-5-12 service-box service-1'>
+                      <img src='https://blinkvisa.com/web/images/mob-visa-application.png' style='width: 100%;     float: left;'/>                       
+
+
+                    </div>
+        <div class='col-7-12 service-box service-1'>
+                     
+<div>
+<h2 style='text-align: left;'>
+Get expert eyes on your Art</h2>
+
+
+<ol style='text-align: left;'>
+<li>Your entire Art is now yours.</li>
+</ol>
+</div>
+                    </div>
+		
+			
+					
+				
+					</section>
+
+
+  </div>
+
+
+
+
+
+<div class='not_visible_d'>
+			<svg class='curveDownColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M0 0 C 0 0 50 200 100 0 Z'/>
+                                                   </svg>
+</div>
+<div class='not_visible_m'>
+			<svg class='curveDownColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M0 0 C 0 0 50 200 100 0 Z'/>
+                                                   </svg>
+</div>
+
+</b:if>
+</b:if>
+
+
+
+
+
+
+<div class='wrap grey recent-wrap' id='work'>
+                <div class='grid grid-pad'>
+
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+					<h2>Recent Work</h2>
+                    <!-- Start of Filter section -->
+                    <div class='col-1-1 mix'>
+                    </div>
+                    <!-- End of Filter section -->
+</b:if>
+</b:if>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+					 <h2 class='entry-title' id='title2' item-prop='name'/>
+                    <!-- Start of Filter section -->
+                   <div class='col-1-1 mix'>
+						<nav class='post-navigation'>
+							<div class='nav-links'>
+								<div id='pager'/>
+							</div>
+						</nav>
+                   </div>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'> 
+					 <h2 class='entry-title' id='title3' item-prop='name'/>
+                    <!-- Start of Filter section -->
+                   <div class='col-1-1 mix'>
+						<nav class='post-navigation'>
+							<div class='nav-links'>
+								<div id='pager2'/>
+							</div>
+						</nav>
+                   </div>
+</b:if>
+
+
+         <div class='clr'/>
+       		<div class='ct-wrapper'>
+          	   <div class='outer-wrapper'><div>
+                  <div class='main-wrapper'>
+                    <b:section class='content' id='content' showaddelement='no'>
+                      <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+                        <b:widget-settings>
+                          <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+                          <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+                          <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+                          <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+                          <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+                          <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                          <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+                          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                          <b:widget-setting name='reactionsLabel'/>
+                          <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+                          <b:widget-setting name='showLabels'>true</b:widget-setting>
+                          <b:widget-setting name='showLocation'>true</b:widget-setting>
+                          <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+                          <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+                          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                          <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+                          <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+                          <b:widget-setting name='showReactions'>false</b:widget-setting>
+                        </b:widget-settings>
+                        <b:includable id='main' var='top'>
+  <b:if cond='data:mobile == &quot;false&quot;'>
+    <!-- posts -->
+    <div class='blog-posts hfeed portfolio-items' id='MixItUp7FEBD1'>
+
+      <b:include data='top' name='status-message'/>
+
+      <data:defaultAdStart/>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.isDateStart'>
+          <b:if cond='data:post.isFirstPost == &quot;false&quot;'>
+            &lt;/div&gt;&lt;/div&gt;
+          </b:if>
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-outer&quot;&gt;
+        </b:if>
+        <b:if cond='data:post.dateHeader'>
+          <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+        </b:if>
+        <b:if cond='data:post.isDateStart'>
+          &lt;div class=&quot;date-posts&quot;&gt;
+        </b:if>
+        <div class='post-outer'>
+        <b:include data='post' name='post'/>
+        <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        </div>
+        <b:if cond='data:post.includeAd'>
+          <b:if cond='data:post.isFirstPost'>
+            <data:defaultAdEnd/>
+          <b:else/>
+            <data:adEnd/>
+          </b:if>
+          <div class='inline-ad'>
+            <data:adCode/>
+          </div>
+          <data:adStart/>
+        </b:if>
+      </b:loop>
+      <b:if cond='data:numPosts != 0'>
+        &lt;/div&gt;&lt;/div&gt;
+      </b:if>
+      <data:adEnd/>
+    </div>
+
+    <!-- navigation -->
+    <b:include name='nextprev'/>
+
+
+    <b:if cond='data:top.showStars'>
+      <script src='//www.google.com/jsapi' type='text/javascript'/>
+      <script type='text/javascript'>
+        google.load(&quot;annotations&quot;, &quot;1&quot;, {&quot;locale&quot;: &quot;<data:top.languageCode/>&quot;});
+        function initialize() {
+          google.annotations.setApplicationId(<data:top.blogspotReviews/>);
+          google.annotations.createAll();
+          google.annotations.fetch();
+        }
+        google.setOnLoadCallback(initialize);
+      </script>
+    </b:if>
+
+  <b:else/>
+    <b:include name='mobile-main'/>
+  </b:if>
+
+  <b:if cond='data:top.showDummy'>
+    <data:top.dummyBootstrap/>
+  </b:if>
+
+</b:includable>
+                        <b:includable id='backlinkDeleteIcon' var='backlink'>
+  <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
+    <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
+      <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+    </a>
+  </span>
+</b:includable>
+                        <b:includable id='backlinks' var='post'>
+  <a name='links'/><h4><data:post.backlinksLabel/></h4>
+  <b:if cond='data:post.numBacklinks != 0'>
+    <dl class='comments-block' id='comments-block'>
+      <b:loop values='data:post.backlinks' var='backlink'>
+        <div class='collapsed-backlink backlink-control'>
+          <dt class='comment-title'>
+            <span class='backlink-toggle-zippy'>&#160;</span>
+            <a expr:href='data:backlink.url' rel='nofollow'><data:backlink.title/></a>
+            <b:include data='backlink' name='backlinkDeleteIcon'/>
+          </dt>
+          <dd class='comment-body collapseable'>
+            <data:backlink.snippet/>
+          </dd>
+          <dd class='comment-footer collapseable'>
+            <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
+            <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
+          </dd>
+        </div>
+      </b:loop>
+    </dl>
+  </b:if>
+  <p class='comment-footer'>
+    <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
+  </p>
+</b:includable>
+                        <b:includable id='comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <h4 id='comment-post-message'>
+        <a expr:id='data:widget.instanceId + &quot;_comment-editor-toggle-link&quot;' href='javascript:void(0)'><data:postCommentMsg/></a></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <h4 id='comment-post-message'><data:postCommentMsg/></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.friendConnectJs/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+    </script>
+  </div>
+</b:includable>
+                        <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+                        <b:includable id='comment_count_picker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-post-url='data:post.url' expr:data-url='data:post.url.canonical.http'>
+    </span>
+  <b:else/>
+    <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+      <data:post.commentLabelFull/>:
+    </a>
+  </b:if>
+</b:includable>
+                        <b:includable id='comment_picker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <b:include data='post' name='iframe_comments'/>
+  <b:else/>
+    <b:if cond='data:post.showThreadedComments'>
+      <b:include data='post' name='threaded_comments'/>
+    <b:else/>
+      <b:include data='post' name='comments'/>
+    </b:if>
+  </b:if>
+</b:includable>
+                        <b:includable id='comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+      <h4>
+        <b:if cond='data:post.numComments == 1'>
+          1 <data:commentLabel/>:
+        <b:else/>
+          <data:post.numComments/> <data:commentLabelPlural/>:
+        </b:if>
+      </h4>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
+          &#160;
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
+          &#160;
+          <data:post.commentRangeText/>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
+        </span>
+      </b:if>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <dl expr:class='data:post.avatarIndentClass' id='comments-block'>
+          <b:loop values='data:post.comments' var='comment'>
+            <dt expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
+              <b:if cond='data:comment.favicon'>
+                <img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
+              </b:if>
+              <a expr:name='data:comment.anchorName'/>
+              <b:if cond='data:blog.enabledCommentProfileImages'>
+                <data:comment.authorAvatarImage/>
+              </b:if>
+              <b:if cond='data:comment.authorUrl'>
+                <a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
+              <b:else/>
+                <data:comment.author/>
+              </b:if>
+              <data:commentPostedByMsg/>
+            </dt>
+            <dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'>
+              <b:if cond='data:comment.isDeleted'>
+                <span class='deleted-comment'><data:comment.body/></span>
+              <b:else/>
+                <p>
+                  <data:comment.body/>
+                </p>
+              </b:if>
+            </dd>
+            <dd class='comment-footer'>
+              <span class='comment-timestamp'>
+                <a expr:href='data:comment.url' title='comment permalink'>
+                  <data:comment.timestamp/>
+                </a>
+                <b:include data='comment' name='commentDeleteIcon'/>
+              </span>
+            </dd>
+          </b:loop>
+        </dl>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+            <data:post.oldestLinkText/>
+          </a>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+            <data:post.olderLinkText/>
+          </a>
+          &#160;
+          <data:post.commentRangeText/>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+            <data:post.newerLinkText/>
+          </a>
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+            <data:post.newestLinkText/>
+          </a>
+        </span>
+      </b:if>
+
+      <p class='comment-footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='comment-form'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+          </b:if>
+        </b:if>
+
+      </p>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:if cond='data:post.showBacklinks'>
+         <b:include data='post' name='backlinks'/>
+       </b:if>
+    </div>
+    </div>
+  </div>
+</b:includable>
+                        <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+
+    <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments'>
+          <b:if cond='data:post.feedLinks'>
+            <b:include data='post.feedLinks' name='feedLinksBody'/>
+          </b:if>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+                        <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:feedLinksMsg/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+                        <b:includable id='iframe_comments' var='post'>
+
+  <b:if cond='data:post.allowIframeComments'>
+    <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
+    <div class='cmt_iframe_holder' expr:data-href='data:post.url.canonical' expr:data-viewtype='data:post.viewType'/>
+
+    <b:if cond='data:post.embedCommentForm == &quot;false&quot;'>
+      <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+    </b:if>
+  </b:if>
+</b:includable>
+                        <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <div class='date-header'>
+        <span><data:post.dateHeader/></span>
+      </div>
+    </b:if>
+
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title' itemprop='name'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+          <b:if cond='data:post.allowComments'>
+            <b:if cond='data:post.numComments != 0'>
+              <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+            </b:if>
+          </b:if>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+                        <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+                        <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+                        <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template'>
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h1 class='post-title entry-title'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:else/>
+                <b:if cond='data:post.url'>
+                  <b:if cond='data:blog.url != data:post.url'>
+                    <a expr:href='data:post.url'><data:post.title/></a>
+                  <b:else/>
+                    <data:post.title/>
+                  </b:if>
+                <b:else/>
+                  <data:post.title/>
+                </b:if>
+              </b:if>
+            </h1>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id'>
+            <data:post.body/>
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn'>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <data:post.author/>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn'><data:post.author/></span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:if cond='data:blog.pageType != &quot;item&quot;'>
+                  <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                    <b:if cond='data:post.allowComments'>
+                      <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+                    </b:if>
+                  </b:if>
+                </b:if>
+              </span>
+            </div>
+
+
+
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+        <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+                        <b:includable id='nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+
+<ul class='pagination'>
+
+<li>
+    <b:if cond='data:newerPageUrl'>
+
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><span class='meta-nav'>
+<i class='fa fa-angle-left'/>
+</span></a>
+
+    </b:if>
+</li>
+
+<li class='post-base'>
+		<a class='home-link' expr:href='data:blog.homepageUrl'><i class='fa fa-home'/></a>
+</li>
+
+<li>
+    <b:if cond='data:olderPageUrl'>
+
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><span class='meta-nav'>
+<i class='fa fa-angle-right'/>
+</span></a>
+
+    </b:if>
+</li>
+
+</ul>
+
+   
+
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+                        <b:includable id='post' var='post'>
+<div class='col-1-3 mix sjps' style='display: inline-block;'>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<b:if cond='data:post.title'>
+<h1 align='center' class='post-title entry-title' id='title1' style='display:none'>
+<b:if cond='data:post.link'>       
+<a expr:href='data:post.link'><data:post.title/></a>
+<b:else/>
+<b:if cond='data:post.url'>
+<b:if cond='data:blog.url != data:post.url'>
+<a expr:href='data:post.url'><data:post.title/></a>  
+<b:else/>
+<data:post.title/>
+</b:if>
+<b:else/>
+<data:post.title/>
+</b:if>
+</b:if>
+</h1>
+</b:if></b:if>
+
+
+        <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='description articleBody'>
+<div class='entry-title'>
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<h3 align='center' itemprop='name' style='display:none;'>     
+<b:if cond='data:post.url'>
+<b:if cond='data:blog.url != data:post.url'>
+<a expr:href='data:post.url'><data:post.title/></a>
+<b:else/>
+<data:post.title/>
+</b:if>
+<b:else/>
+<data:post.title/>
+</b:if>
+</h3>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+  <h1 class='static-title' id='title4' style='display:none;'><data:post.title/></h1></b:if>
+  </b:if></b:if>
+  </div>
+
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<data:post.body/>
+<b:else/>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<data:post.body/>
+<b:else/>
+<div class='body-post'>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<span expr:id='&quot;p&quot; + data:post.id'><data:post.body/></span>
+<script type='text/javascript'>var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,t=&quot;<data:post.timestamp/>&quot;,u=&quot;<data:post.numComments/>&quot;;rm(&quot;p<data:post.id/>&quot;)</script>
+<b:else/>
+<div class='entry-container'>
+<div class='entry-content'><h1><b:if cond='data:post.link'><a expr:href='data:post.link' expr:title='data:post.title'><data:post.title/></a><b:else/><data:post.title/></b:if></h1><data:post.body/></div></div></b:if></div></b:if></b:if>
+      <div style='clear: both;'/> <!-- clear for photos floats -->
+    </div>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<div class='post-footer'>
+<footer class='entry-meta'>
+<ul class='list-inline post-tags'>
+<b:loop values='data:post.labels' var='label'>
+  <li><a expr:href='data:label.url' rel='category tag'><data:label.name/></a></li>
+</b:loop>
+</ul>
+</footer>
+</div>
+  </b:if>
+
+  </div>
+
+</b:includable>
+                        <b:includable id='postQuickEdit' var='post'>
+  <b:if cond='data:post.editUrl'>
+    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
+      <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+        <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+      </a>
+    </span>
+  </b:if>
+</b:includable>
+                        <b:includable id='shareButtons' var='post'>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showOrkutButton'><a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + &quot;&amp;target=orkut&quot;' expr:title='data:top.shareToOrkutMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToOrkutMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if><b:if cond='data:top.showDummy'><div class='goog-inline-block dummy-container'><data:post.dummyTag/></div></b:if>
+</b:includable>
+                        <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <data:navMessage/>
+    </div>
+    <div class='status-msg-border'>
+      <div class='status-msg-bg'>
+        <div class='status-msg-hidden'><data:navMessage/></div>
+      </div>
+    </div>
+  </div>
+  <div style='clear: both;'/>
+  </b:if>
+</b:includable>
+                        <b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.friendConnectJs/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+    </script>
+  </div>
+</b:includable>
+                        <b:includable id='threaded_comment_css'>
+  <style>
+
+  </style>
+</b:includable>
+                        <b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        if (entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + entry.content.$t + '</span>';
+            }
+          }
+        }
+        return entry.content.$t;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+                        <b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threaded_comment_js'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threaded-comment-form'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:if cond='data:post.showBacklinks'>
+         <b:include data='post' name='backlinks'/>
+       </b:if>
+    </div>
+    </div>
+  </div>
+</b:includable>
+                      </b:widget>
+                    </b:section>
+
+					<!-- View More Button -->
+					<b:if cond='data:blog.url == data:blog.homepageUrl'>
+					<style>
+						div#blog-pager {
+   						display: none;
+						}
+					</style>
+					<div class='col-1-1'><a class='btn' href='/search?max-results=6'>View More</a></div>
+					</b:if>
+                    <!-- View More Button/End -->
+
+            		</div><!-- /main-wrapper -->
+                    <div class='sidebar-wrapper'>
+                     <b:section class='sidebar' id='sidebar' showaddelement='yes'>
+                       <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
+                         <b:widget-settings>
+                           <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
+                           <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+                           <b:widget-setting name='showSnippets'>true</b:widget-setting>
+                           <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+                         </b:widget-settings>
+                         <b:includable id='main'>
+  <b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <li>
+        <b:if cond='data:showThumbnails == &quot;false&quot;'>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (3) Show only thumbnails -->
+            <div class='item-thumbnail-only'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            </div>
+            <div style='clear: both;'/>
+          <b:else/>
+            <!-- (4) Show snippets and thumbnails -->
+            <div class='item-content'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </div>
+            <div style='clear: both;'/>
+          </b:if>
+        </b:if>
+      </li>
+      </b:loop>
+    </ul>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+                       </b:widget>
+                       <b:widget id='Label1' locked='false' title='Labels' type='Label' version='1'>
+                         <b:widget-settings>
+                           <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+                           <b:widget-setting name='display'>LIST</b:widget-setting>
+                           <b:widget-setting name='selectedLabelsList'/>
+                           <b:widget-setting name='showType'>ALL</b:widget-setting>
+                           <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+                         </b:widget-settings>
+                         <b:includable id='main'>
+  <b:if cond='data:title'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+    <b:if cond='data:display == &quot;list&quot;'>
+      <ul>
+      <b:loop values='data:labels' var='label'>
+        <li>
+          <b:if cond='data:blog.url == data:label.url'>
+            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </li>
+      </b:loop>
+      </ul>
+    <b:else/>
+      <b:loop values='data:labels' var='label'>
+        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+          <b:if cond='data:blog.url == data:label.url'>
+            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </span>
+      </b:loop>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+                       </b:widget>
+                       <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'>
+                         <b:widget-settings>
+                           <b:widget-setting name='showStyle'>HIERARCHY</b:widget-setting>
+                           <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
+                           <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
+                           <b:widget-setting name='monthPattern'>MMMM</b:widget-setting>
+                           <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
+                           <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
+                           <b:widget-setting name='chronological'>false</b:widget-setting>
+                           <b:widget-setting name='showPosts'>true</b:widget-setting>
+                           <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
+                         </b:widget-settings>
+                         <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+  <div id='ArchiveList'>
+  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
+    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
+    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
+    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
+  </div>
+  </div>
+  <b:include name='quickedit'/>
+  </div>
+</b:includable>
+                         <b:includable id='flat' var='data'>
+  <ul class='flat'>
+    <b:loop values='data:data' var='i'>
+      <li class='archivedate'>
+        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+                         <b:includable id='interval' var='intervalData'>
+  <b:loop values='data:intervalData' var='interval'>
+    <ul class='hierarchy'>
+      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
+        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
+        <a class='post-count-link' expr:href='data:interval.url'>
+          <data:interval.name/>
+        </a>
+        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
+        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
+        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
+      </li>
+    </ul>
+  </b:loop>
+</b:includable>
+                         <b:includable id='menu' var='data'>
+  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
+    <option value=''><data:title/></option>
+    <b:loop values='data:data' var='i'>
+      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
+    </b:loop>
+  </select>
+</b:includable>
+                         <b:includable id='posts' var='posts'>
+  <ul class='posts'>
+    <b:loop values='data:posts' var='post'>
+      <li><a expr:href='data:post.url'><data:post.title/></a></li>
+    </b:loop>
+  </ul>
+</b:includable>
+                         <b:includable id='toggle' var='interval'>
+  <a class='toggle' href='javascript:void(0)'>
+    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
+      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
+        &#9660;&#160;
+      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
+        &#9668;&#160;
+      <b:else/>
+        &#9658;&#160;
+      </b:if>
+    </span>
+  </a>
+</b:includable>
+                       </b:widget>
+                     </b:section>
+
+                </div><!-- /sidebar-wrapper -->
+					<div class='clr'/>
+            </div><!-- /ct-wrapper -->
+            </div> </div><!-- /outer-wrapper -->
+
+	</div>  
+ </div>
+
+
+
+
+
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+ <!-- CurveUp -->
+<div class='not_visible_d'>
+<svg class='curveUpColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 100 C 20 0 50 0 100 100 Z'/>
+  </svg></div>
+<div class='not_visible_m'>
+<svg class='curveUpColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 100 C 20 0 50 0 100 100 Z'/>
+  </svg></div>
+<!-- Quotes Section -->
+
+
+ 
+<div class='wrap services-wrap'>
+ 
+
+
+
+<h2 style=' text-align:center;'> Price details</h2>
+
+
+
+
+
+<div class='wrap services-wrap'>
+
+
+      <section class='grid grid-pad'>
+                    <div class='col-1-1 service-box cl-client-carousel-container'>
+                        <div class='content'>
+                            <div class='cl-client-carousel'>
+                               
+                          
+
+
+      <div class='item client-carousel-item'><!-- Start of item -->
+                             
+                                
+
+   <div class='col-1-1'>
+
+ <h3>PENCIL SKETCH STYLE</h3>
+<div class='background' id='pricing'>
+<div class='container grid grid-pad'>
+<div class='panel pricing-table'>
+<div class='pricing-plan'>
+<img alt='' class='pricing-img' src='https://s22.postimg.cc/8mv5gn7w1/paper-plane.png'/>
+<h2 class='pricing-header'>Single Portrait</h2>
+<ul class='pricing-features'>
+
+<li class='pricing-features-item'>size: A4</li>
+<li class='pricing-features-item'>Number of subjects: 1 </li>
+<li class='pricing-features-item'>Drawing style: Sketch style </li>
+<li class='pricing-features-item'>Number of Hours: 15hr Drawing</li>
+<li class='pricing-features-item'>Color - BW</li>
+<li class='pricing-features-item'>Materials used: 150GSM Paper</li>
+<li class='pricing-features-item'>Processing Time 7 Day</li>
+<li class='pricing-features-item'>Shipping charges Extra</li>
+
+
+</ul>
+<span class='pricing-price'> &#8377; 249 </span>
+<a class='pricing-button' href='#/'>Order Now</a>
+</div>
+<div class='pricing-plan'>
+<img alt='' class='pricing-img' src='https://s28.postimg.cc/ju5bnc3x9/plane.png'/>
+<h2 class='pricing-header'>Copule Portrait</h2>
+<ul class='pricing-features'>
+<li class='pricing-features-item'>size: A4</li>
+<li class='pricing-features-item'>Number of subjects: 2 </li>
+<li class='pricing-features-item'>Drawing style: Sketch style </li>
+<li class='pricing-features-item'>Number of Hours: 30hr Drawing</li>
+<li class='pricing-features-item'>Color - BW</li>
+<li class='pricing-features-item'>Materials used: 150GSM Paper</li>
+<li class='pricing-features-item'>Processing Time 14 Day</li>
+<li class='pricing-features-item'>Shipping charges Extra</li>
+
+
+</ul>
+<span class='pricing-price'> &#8377; 449 </span>
+<a class='pricing-button is-featured' href='#/'>Order Now</a>
+</div>
+<div class='pricing-plan'>
+<img alt='' class='pricing-img' src='https://s21.postimg.cc/tpm0cge4n/space-ship.png'/>
+<h2 class='pricing-header'>Family portrait</h2>
+<ul class='pricing-features'>
+<li class='pricing-features-item'>size: A4</li>
+<li class='pricing-features-item'>Number of subjects: 4 </li>
+<li class='pricing-features-item'>Drawing style: Sketch style </li>
+<li class='pricing-features-item'>Number of Hours: 50hr Drawing</li>
+<li class='pricing-features-item'>Color - BW</li>
+<li class='pricing-features-item'>Materials used: 150GSM Paper</li>
+<li class='pricing-features-item'>Processing Time 20 Day</li>
+<li class='pricing-features-item'>Shipping charges Extra</li>
+
+
+</ul>
+<span class='pricing-price'> &#8377; 749 </span>
+<a class='pricing-button' href='#/'>Order Now</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+                                </div><!-- End of item -->
+
+
+
+
+      <div class='item client-carousel-item'><!-- Start of item -->
+                             
+                                 
+
+   <div class='col-1-1'>
+
+     <h3>SEMI-REALISAM STYLE</h3>
+<div class='background' id='pricing'>
+<div class='container grid grid-pad'>
+<div class='panel pricing-table'>
+<div class='pricing-plan'>
+<img alt='' class='pricing-img' src='https://s22.postimg.cc/8mv5gn7w1/paper-plane.png'/>
+<h2 class='pricing-header'>Single Portrait</h2>
+<ul class='pricing-features'>
+
+<li class='pricing-features-item'>size: A4</li>
+<li class='pricing-features-item'>Number of subjects: 1 </li>
+<li class='pricing-features-item'>Drawing style: semi-realistic style </li>
+<li class='pricing-features-item'>Number of Hours: 15hr Drawing</li>
+<li class='pricing-features-item'>Color - BW</li>
+<li class='pricing-features-item'>Materials used: 150GSM Paper</li>
+<li class='pricing-features-item'>Processing Time 7 Day</li>
+<li class='pricing-features-item'>Shipping charges Extra</li>
+
+
+</ul>
+<span class='pricing-price'> &#8377; 449 </span>
+<a class='pricing-button' href='#/'>Order Now</a>
+</div>
+<div class='pricing-plan'>
+<img alt='' class='pricing-img' src='https://s28.postimg.cc/ju5bnc3x9/plane.png'/>
+<h2 class='pricing-header'>Copule Portrait</h2>
+<ul class='pricing-features'>
+<li class='pricing-features-item'>size: A4</li>
+<li class='pricing-features-item'>Number of subjects: 2 </li>
+<li class='pricing-features-item'>Drawing style: semi-realistic style </li>
+<li class='pricing-features-item'>Number of Hours: 30hr Drawing</li>
+<li class='pricing-features-item'>Color - BW</li>
+<li class='pricing-features-item'>Materials used: 150GSM Paper</li>
+<li class='pricing-features-item'>Processing Time 14 Day</li>
+<li class='pricing-features-item'>Shipping charges Extra</li>
+
+
+</ul>
+<span class='pricing-price'> &#8377; 749 </span>
+<a class='pricing-button is-featured' href='#/'>Order Now</a>
+</div>
+<div class='pricing-plan'>
+<img alt='' class='pricing-img' src='https://s21.postimg.cc/tpm0cge4n/space-ship.png'/>
+<h2 class='pricing-header'>Family portrait</h2>
+<ul class='pricing-features'>
+<li class='pricing-features-item'>size: A4</li>
+<li class='pricing-features-item'>Number of subjects: 4 </li>
+<li class='pricing-features-item'>Drawing style: semi-realistic style </li>
+<li class='pricing-features-item'>Number of Hours: 50hr Drawing</li>
+<li class='pricing-features-item'>Color - BW</li>
+<li class='pricing-features-item'>Materials used: 150GSM Paper</li>
+<li class='pricing-features-item'>Processing Time 20 Day</li>
+<li class='pricing-features-item'>Shipping charges Extra</li>
+
+
+</ul>
+<span class='pricing-price'> &#8377; 1249 </span>
+<a class='pricing-button' href='#/'>Order Now</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+                                </div><!-- End of item -->
+
+
+
+
+
+
+<!-- End of item -->
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </section>
+
+
+
+            </div>
+ 
+
+
+<h2 style=' text-align:center;'>Pencil Sketch Style - Price details</h2>
+
+<div class='wrap services-wrap'>
+
+
+      <section class='grid grid-pad'>
+                    <div class='col-1-1 service-box cl-client-carousel-container'>
+                        <div class='content'>
+                            <div class='cl-client-carousel'>
+                               
+                          
+
+
+      <div class='item client-carousel-item'><!-- Start of item -->
+                             
+                                
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='gen secure solution contact details'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                           <!-- User Name --> <h5>SINGLE PORTRAIT - A4</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                           <!-- User Name --> <h5>SINGLE PORTRAIT - A4</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>SINGLE PORTRAIT - A2</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>SINGLE PORTRAIT - A1</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                </div><!-- End of item -->
+
+
+
+
+      <div class='item client-carousel-item'><!-- Start of item -->
+                             
+                                
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>COPULE PORTRAIT - A4</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>COPULE PORTRAIT - A3</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+                                          <div class='not_visible_d'> <span><b>&#8377; 555</b></span></div>
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>COPULE PORTRAIT - A2</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+                                          <div class='not_visible_d'> <span><b>&#8377; 555</b></span></div>
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>COPULE PORTRAIT - A1</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                </div><!-- End of item -->
+
+
+
+
+
+
+
+
+      <div class='item client-carousel-item'><!-- Start of item -->
+                             
+                                
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>FAMILY PORTRAIT - A4</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>FAMILY PORTRAIT - A3</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>FAMILY PORTRAIT - A2</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>FAMILY PORTRAIT - A1</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                                </div><!-- End of item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- End of item -->
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </section>
+
+
+
+            </div>
+   
+
+
+
+     
+<h2 style=' text-align:center;'>Semi-Realisam Style - Price details</h2>
+
+<div class='wrap services-wrap'>
+
+
+      <section class='grid grid-pad'>
+                    <div class='col-1-1 service-box cl-client-carousel-container'>
+                        <div class='content'>
+                            <div class='cl-client-carousel'>
+                               
+                          
+
+
+      <div class='item client-carousel-item'><!-- Start of item -->
+                             
+                                
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='gen secure solution contact details'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                           <!-- User Name --> <h5>SINGLE PORTRAIT - A4</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                           <!-- User Name --> <h5>SINGLE PORTRAIT - A4</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>SINGLE PORTRAIT - A2</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>SINGLE PORTRAIT - A1</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                </div><!-- End of item -->
+
+
+
+
+      <div class='item client-carousel-item'><!-- Start of item -->
+                             
+                                
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>COPULE PORTRAIT - A4</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>COPULE PORTRAIT - A3</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+                                          <div class='not_visible_d'> <span><b>&#8377; 555</b></span></div>
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>COPULE PORTRAIT - A2</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+                                          <div class='not_visible_d'> <span><b>&#8377; 555</b></span></div>
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>COPULE PORTRAIT - A1</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                </div><!-- End of item -->
+
+
+
+
+
+
+
+
+      <div class='item client-carousel-item'><!-- Start of item -->
+                             
+                                
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>FAMILY PORTRAIT - A4</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>FAMILY PORTRAIT - A3</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>FAMILY PORTRAIT - A2</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+   <div class='col-1-4'>
+                                <div class='content staff-content'>
+                                    <div class='recent-work staff-img'>
+                                        <div class='img-wrap staff-img'>
+                                          <!-- User Image --> <img alt='' src='https://images-na.ssl-images-amazon.com/images/I/71qHpgdzk3L._SX466_.jpg'/>
+											 <!-- User Social Links -->
+                                            <div class='team-social'>
+                                            <div class='not_visible_d'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                            </div>
+                                        </div>
+                                        <div class='work-info staff-info'>
+                                             <!-- User Name --> <h5>FAMILY PORTRAIT - A1</h5>
+                                  
+                                          <div class='not_visible_m'><h4><strike>Regular Price -  &#8377; 1800  </strike></h4></div>
+   <div class='not_visible_m'><h4>Offer Price - &#8377; 249</h4></div>
+                                             <!-- User Post --> <div class='not_visible_d'> <strike>Regular Price -  &#8377; 1800  </strike></div>
+
+                                          <div class='not_visible_d'> <span> Offer Price - <b>&#8377; 249</b></span></div>
+											 
+
+
+<div class='not_visible_m'><a class='btn read-more' href='#' target='_blank' title='shahiran Art'><em class='fa fa-envelope'/>Order Now </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                                </div><!-- End of item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- End of item -->
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </section>
+
+
+
+            </div>
+   
+
+
+
+
+
+
+            </div>
+<!-- End Quotes Section -->
+<!-- CurveDown -->
+<div class='not_visible_d'>
+<svg class='curveDownColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 50 100 80 100 100 0 Z'/>
+ </svg>
+  </div>
+<div class='not_visible_m'>
+<svg class='curveDownColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 50 100 80 100 100 0 Z'/>
+ </svg>
+  </div>
+
+
+
+<!-- CurveDown -->
+<div class='not_visible_d'>
+<svg class='curveDownColor' height='100' preserveAspectRatio='none' style=' fill: #ECF0F1;stroke: #ECF0F1;' top=' -0px' version='1.1' viewBox='0 0 0 0' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 0 0 0 0 0 0 Z'/>
+</svg>
+  </div>
+<div class='not_visible_m'>
+<svg class='curveDownColor' height='100' preserveAspectRatio='none' style=' fill: #ECF0F1;stroke: #ECF0F1;' top=' -0px' version='1.1' viewBox='0 0 0 0' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 0 0 0 0 0 0 Z'/>
+</svg>
+  </div>
+
+
+
+
+
+
+
+
+<div class='wrap blog-grid grey' id='blog'>
+                <div class='grid grid-pad'>
+                    <div class='content'>
+                        <h2>Gallary</h2>
+						
+						
+						  <div class='col-1-3'>
+						  <div CLASS='recent-work'>
+<img SRC='https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg'/>
+<div CLASS='overlay'>
+<h2>
+<a CLASS='img-wrap' HREF='#' title='shahiran Art'>profile</a>
+</h2>
+</div> 
+</div> 
+
+					 
+					 </div>
+					 
+					 						  <div class='col-1-3'>
+						  <div CLASS='recent-work'>
+<img SRC='https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg'/>
+<div CLASS='overlay'>
+<h2>
+<a CLASS='img-wrap' HREF='#' title='CCTV installation photos'>profile</a>
+</h2>
+</div> 
+</div> 
+
+					 
+					 </div>
+					 
+					 
+					 
+					 	  <div class='col-1-3'>
+						  <div CLASS='recent-work'>
+<img SRC='https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg'/>
+<div CLASS='overlay'>
+<h2>
+<a CLASS='img-wrap' HREF='#' title='Burgulary Alarm installation'>profile</a>
+</h2>
+</div> 
+</div> 
+
+					 
+					 </div>
+					 					
+					 
+					 						
+						
+						  <div class='col-1-3'>
+						  <div CLASS='recent-work'>
+<img SRC='https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg'/>
+<div CLASS='overlay'>
+<h2>
+<a CLASS='img-wrap' HREF='#' title='shahiran Art'>profile</a>
+</h2>
+</div> 
+</div> 
+
+					 
+					 </div>
+					 
+					 						  <div class='col-1-3'>
+						  <div CLASS='recent-work'>
+<img SRC='https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg'/>
+<div CLASS='overlay'>
+<h2>
+<a CLASS='img-wrap' HREF='#' title='CCTV installation photos'>profile</a>
+</h2>
+</div> 
+</div> 
+
+					 
+					 </div>
+					 
+					 
+					 
+					 	  <div class='col-1-3'>
+						  <div CLASS='recent-work'>
+<img SRC='https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg'/>
+<div CLASS='overlay'>
+<h2>
+<a CLASS='img-wrap' HREF='#' title='Burgulary Alarm installation'>profile</a>
+</h2>
+</div> 
+</div> 
+
+					 
+					 </div>
+					 					
+					 
+					 
+			  
+
+
+                  </div>
+              
+			    </div>
+
+
+			</div>
+<div class='not_visible_d'>
+<svg class='curveUpColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 100 C 20 0 50 0 100 100 Z'/>
+  </svg></div>
+<div class='not_visible_m'>
+<svg class='curveUpColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 100 C 20 0 50 0 100 100 Z'/>
+  </svg></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Parallax Section - Counter -->
+
+
+<div class='wrap services-wrap'>
+
+                  <h2 style='text-align: center;'>CUSTOMER REVIEWS</h2>
+
+
+                <section class='grid grid-pad'>
+                    <div class='col-1-1 service-box cl-client-carousel-container'>
+                        <div class='content'>
+                            <div class='cl-client-carousel'>
+                               
+                                <div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p>he artist is exceptionally talented and well verse with various arts. The art pieces are the best gift for loved ones. A total trustworthy and reliable service. I totally loved the first order and another one is on the way.<span> - Facebook</span></p>
+                                <!-- Person Name --><h4>Aman Bhatia</h4>
+                                </div><!-- End of item -->
+                                <div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p> Very very beautiful work.i want give to some other work also.short period he did good job for me . thanks .<span> -Facebook</span></p>
+								<h4>-Anitha Sitharthan</h4>
+                           
+                                </div><!-- End of item -->
+								             <div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p> Excellent work and God gifted hand for making beautiful sketch and photo painting
+I am glad to meet a great artist in my life,You Mr shakthi.. you are awesome my bro,May my Allah bless you with beautiful future and blessings
+You are great my brada @Abhay<span> -Facebook</span></p>
+								<h4>-Asfiya Naaz</h4>
+                           
+                                </div><!-- End of item -->
+								
+								     <div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p> The sketch u made s awesome n liked it a lot n thank u<span> -Facebook</span></p>
+								<h4>-Chithra</h4>
+                           
+                                </div><!-- End of item -->
+								
+
+
+<div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p>Excellent drawing works....this is my second work with them...very very satisfied with their work...al the best...keep giving the best...<span> -Facebook</span></p>
+								<h4>-Shruti Gupta</h4>
+                           
+                                </div><!-- End of item -->
+								
+
+
+<div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p>Incredible artist I have ever seen...you just put life in ur art.
+Really appreciate the hard work n dedication towards your work..amazing work<span> -Facebook</span></p>
+								<h4>-Anish Mahajan</h4>
+                           
+                                </div><!-- End of item -->
+								
+
+
+<div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p> Abhay bhai is a really wonderful artist. He creates magic through his sketches and puts his cent percent efforts in his work and the outcome is the best one can ever get.<span> -Facebook</span></p>
+								<h4>-Manasa Subramani</h4>
+                           
+                                </div><!-- End of item -->
+								
+
+
+<div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p> Shakthi Nakkeeran- He is the most incredible artist who bring reality in his sketch or work. It seems just like real person has been engraved in the sketch and give the feelings extremely extra-ordinary for his work.
+I truly believe that he will be once the most well known and popular artist all over india very soon.
+<span> -Facebook</span></p>
+								<h4>-Neerav Kumar</h4>
+                           
+                                </div><!-- End of item -->
+								
+
+
+<div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p> Today I have received the sketch.. it was very nice and it looks awesome than I have expected it. Abhay prakash is an excellent artist. He has magic in his hands. The way he communicated was very polite. Totally my sketch was made much prettier that it looks by an excellent artist. Thnq abhay prakash ji for such a dedicated effort. <span> -Facebook</span></p>
+								<h4>-Chithra</h4>
+                           
+                                </div><!-- End of item -->
+								
+
+<div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p>Couldnt search for wrds to convey my satisfaction...Really loved the work..hats off to their timekeeping... could b highly recommended for personalized gifts.... great justice to art...thanks a ton <span> -Facebook</span></p>
+								<h4>-JeesHan RaHman</h4>
+                           
+                                </div><!-- End of item -->
+								
+								   <div class='item client-carousel-item'><!-- Start of item -->
+                                <div class='quotes-icon'>
+                                    <i class='fa fa-quote-left'/>
+                                </div>
+                                <!-- Person Paragraph --><p>You can buy such a nice painting, he took a very little to complete my order !! His dedication towards the work he does will take him to greater heights. Thanks a lot shakthi . God bless  <span> -Facebook</span></p>
+								<h4>-Aishwarya Harsha Hegde</h4>
+                           
+                                </div><!-- End of item -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+
+
+<!-- End Clients Logos Section -->
+
+
+
+<!-- CurveDown -->
+<div class='not_visible_d'><svg class='curveDownColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 50 100 80 100 100 0 Z'/>
+  </svg></div>
+<div class='not_visible_m'><svg class='curveDownColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 50 100 80 100 100 0 Z'/>
+  </svg></div>
+
+<div class='parallax-section parallax2'>
+<div class='wrap' style='float: center;'>
+<section class='grid grid-pad callout' style='text-align: center;'>
+<div class='col-1-3'>
+<div class='content'>
+<div class='info-counter'>
+<div class='info-counter-row'>
+<img src='https://blinkvisa.com/web/images/passport.png' style='width: 20%;     float: center;'/>
+
+</div>
+<div class='info-counter-content'>
+<h5 class='info-counter-number'>
+<!-- Counter No --><span class='counter'>100</span>
+<!-- Counter Title --><span class='info-counter-units'>Drawing</span>
+</h5>
+<!-- Counter Paragraph --><div class='info-counter-text'>Artist models: a collection of contemporary and traditional drawings to inspire high school Art students and teachers.</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class='col-1-3'>
+<div class='content'>
+<div class='info-counter'>
+<div class='info-counter-row'>
+<img src='https://blinkvisa.com/web/images/alarm-clock.png' style='width: 20%;     float: center;'/>
+
+</div>
+<div class='info-counter-content'>
+<h5 class='info-counter-number'>
+<!-- Counter No --><span class='counter'>50</span>
+<!-- Counter Title --><span class='info-counter-units'>Deliverd</span>
+</h5>
+<!-- Counter Paragraph --><div class='info-counter-text'>Ensures that we pack every shipment with added care and ship every package as we can.</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class='col-1-3'>
+<div class='content'>
+<div class='info-counter'>
+<div class='info-counter-row'>
+<img src='https://blinkvisa.com/web/images/networking.png' style='width: 20%;     float: center;'/>
+
+</div>
+<div class='info-counter-content'>
+<h5 class='info-counter-number'>
+<!-- Counter No --><span class='counter'>2</span>
+<!-- Counter Title --><span class='info-counter-units'>Artists</span>
+</h5>
+<!-- Counter Paragraph --><div class='info-counter-text'>Portrait Art team &#8211; Sketch the Photos as we can proudly say that we provide the best handmade artistic portraits, sketches, drawings, paintings with various mediums.</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</section>
+</div>
+</div>
+
+
+
+
+
+<div class='not_visible_d'>
+<svg class='curveUpColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 100 C 20 0 50 0 100 100 Z'/>
+</svg>
+
+  </div>
+<div class='not_visible_d'>
+<svg class='curveUpColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 100 C 20 0 50 0 100 100 Z'/>
+</svg>
+
+  </div>
+
+
+
+
+
+
+
+<!-- CurveDown -->
+<div class='not_visible_d'>
+<svg class='curveDownColor' height='100' preserveAspectRatio='none' style=' fill: #fff;stroke: #fff;' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 50 100 80 100 100 0 Z'/>
+  </svg></div>
+<!-- CurveDown -->
+<div class='not_visible_m'>
+<svg class='curveDownColor' height='100' preserveAspectRatio='none' style=' fill: #fff;stroke: #fff;' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 50 100 80 100 100 0 Z'/>
+  </svg></div>
+
+
+<!-- Parallax Section - Counter -->
+
+
+<!-- Clients Logos Section -->
+<div class='wrap'>
+ 
+
+
+                  <h2 style='text-align: center;'>Brands</h2>
+
+
+                    <div class='grid grid-pad'>
+                        <div class='col-1-1'>
+                            <div class='content'>
+                                <!-- Start of Carousel Container -->
+                                <div class='cl-logo-carousel col-sm-12'>
+                                    
+                                    <div class='item'><!-- Start of item -->
+                                    <a href='#'>
+                                        <figure>
+                                            <!-- Clients Logos --><img alt='' src='http://2.bp.blogspot.com/-0UTO6TC4MGg/VmcRN5JAzVI/AAAAAAAAAlw/leHI2GQdkMU/s1600/1.png'/>
+                                        </figure>
+                                    </a>
+                                    </div><!-- End of item -->
+                                    
+                                    <div class='item'><!-- Start of item -->
+                                    <a href='#'>
+                                        <figure>
+                                            <!-- Clients Logos --><img alt='' src='http://4.bp.blogspot.com/-FFUq7BwJbd4/VmcRN9TumHI/AAAAAAAAAl4/9ZloV_ZVFJA/s1600/2.png'/>
+                                        </figure>
+                                    </a>
+                                    </div><!-- End of item -->
+                                    
+                                    <div class='item'><!-- Start of item -->
+                                    <a href='#'>
+                                        <figure>
+                                            <!-- Clients Logos --><img alt='' src='http://3.bp.blogspot.com/-7Q7LNsuMvZQ/VmcROJUgP8I/AAAAAAAAAl0/bJHsXdqezkc/s1600/3.png'/>
+                                        </figure>
+                                    </a>
+                                    </div><!-- End of item -->
+                                    
+                                    <div class='item'><!-- Start of item -->
+                                    <a href='#'>
+                                        <figure>
+                                            <!-- Clients Logos --><img alt='' src='http://2.bp.blogspot.com/-a5RLg1cZhVw/VmcROgBwOgI/AAAAAAAAAl8/xqvdUofjaso/s1600/4.png'/>
+                                        </figure>
+                                    </a>
+                                    </div><!-- End of item -->
+                                    
+                                    <div class='item'><!-- Start of item -->
+                                    <a href='#'>
+                                        <figure>
+                                            <!-- Clients Logos --><img alt='' src='http://2.bp.blogspot.com/-4YeXZi3hNWQ/VmcROkwFzqI/AAAAAAAAAmA/EkgXWwmA-uQ/s1600/5.png'/>
+                                        </figure>
+                                    </a>
+                                    </div><!-- End of item -->
+                                    
+                                    <div class='item'><!-- Start of item -->
+                                    <a href='#'>
+                                        <figure>
+                                            <!-- Clients Logos --><img alt='' src='http://2.bp.blogspot.com/-0UTO6TC4MGg/VmcRN5JAzVI/AAAAAAAAAlw/leHI2GQdkMU/s1600/1.png'/>
+                                        </figure>
+                                    </a>
+                                    </div><!-- End of item -->
+                                    
+                                    <div class='item'><!-- Start of item -->
+                                    <a href='#'>
+                                        <figure>
+                                            <!-- Clients Logos --><img alt='' src='http://4.bp.blogspot.com/-FFUq7BwJbd4/VmcRN9TumHI/AAAAAAAAAl4/9ZloV_ZVFJA/s1600/2.png'/>
+                                        </figure>
+                                    </a>
+                                    </div><!-- End of item -->
+                                    
+                                    <div class='item'><!-- Start of item -->
+                                    <a href='#'>
+                                        <figure>
+                                            <!-- Clients Logos --><img alt='' src='http://3.bp.blogspot.com/-7Q7LNsuMvZQ/VmcROJUgP8I/AAAAAAAAAl0/bJHsXdqezkc/s1600/3.png'/>
+                                        </figure>
+                                    </a>
+                                    </div><!-- End of item -->
+                                    
+                                </div>
+                                <!-- End of Carousel Container -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- End Clients Logos Section -->
+
+
+
+<!-- End Clients Logos Section -->
+
+<!-- CurveDown -->
+<div class='not_visible_d'><svg class='curveDownColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 50 100 80 100 100 0 Z'/>
+  </svg></div>
+<div class='not_visible_m'><svg class='curveDownColor' height='100' preserveAspectRatio='none' top=' -0px' version='1.1' viewBox='0 0 100 100' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 50 100 80 100 100 0 Z'/>
+  </svg></div>
+               
+</b:if>
+</b:if>
+
+                <!-- Contact Section -->
+                <div class='wrap contact grey' id='contact'>
+                    <div class='grid grid-pad'>
+
+
+
+
+
+
+
+
+
+
+                        <h2>Contact</h2>
+                        <div class='col-1-2'>
+                            <div class='content address'>
+                                <h3>Talk to us</h3>
+                                 <p>
+shahiran Art - Handmade Sketch | Photo to Painting | Digital Portrait Painting | ShakthiNakkeeran
+                                      </p>
+                                <address>
+                                    <div>
+                                        <div class='box-icon'>
+                                            <i class='fa fa-map-marker'/>
+                                        </div>
+                                        <span>Rigistered Office:</span>
+                                       <p>VELANKANNI - TAMILNADU</p>
+                                    </div>
+                                    
+                                    <div>
+									          
+									
+									
+                                        <div class='box-icon'>
+                                            <i class='fa fa-clock-o'/>
+                                        </div>
+                                        <span>Work Time:</span>
+                                        <p>Monday - Saturday from 9 am to 5 pm</p>
+                                    </div>
+                                    
+                                <div>
+                                        <div class='box-icon'>
+                                            <i class='fa fa-phone'/>
+                                        </div>
+
+
+
+
+
+
+
+
+
+                                        <span>Phone:</span>
+                                        <p><a HREF='#'>+91-8220934973</a>,<a HREF='#'>+91-8220934973</a></p>
+                                    </div>                                  
+                                </address>
+                            </div>
+                        </div>
+                         <div class='col-1-2 pleft-25'>
+                            <div class='content contact-form'>
+							<b:section class='contact-form' id='contact-form' preferred='yes' showaddelement='no'>
+<b:widget id='ContactForm1' locked='false' title='Contact Form' type='ContactForm' version='1'>
+  <b:includable id='main'>
+                                <form class='form' id='contactForm' name='contact-form'>
+                                    <input class='comment-name' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' placeholder='Name* :' required='' type='text'/>
+                                    <input expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' placeholder='E-mail* :' required='' type='email'/>
+                                    <textarea class='required comment-text' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' placeholder='Message* :' required='' type='tel'/>
+                                    <input class='btn submit comment-submit' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg' style='visibility: visible;' type='submit'/>
+<div style='text-align: center; max-width: 222px; width: 100%'>
+          <p class='contact-form-error-message' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
+          <p class='contact-form-success-message' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
+        </div>
+                                </form>
+							</b:includable>
+</b:widget>
+</b:section>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+  
+
+           <h2>Velankanni - India</h2>
+							
+				   <div id='google-container' style='width:100%;height:500px;margin-top:1px;margin-bottom:1px;'>            
+        </div>
+		     
+		
+				
+				</div>
+                <!-- End Contact Section -->
+				
+				
+	
+	<div class='not_visible_d'>	
+
+<svg class='curveUpColor secondcurveUpColor' height='100' preserveAspectRatio='none' style=' fill: #ECF0F1; stroke: #ECF0F1; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);margin:0;' top=' -0px' version='1.1' viewBox='0 0 0 0' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 0 0 0 0 100 0 Z'/>
+      </svg></div>
+	
+	<div class='not_visible_m'>	
+
+<svg class='curveUpColor secondcurveUpColor' height='100' preserveAspectRatio='none' style=' fill: #ECF0F1; stroke: #ECF0F1; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);margin:0;' top=' -0px' version='1.1' viewBox='0 0 0 0' width='100%' xmlns='http://www.w3.org/2000/svg'>
+<path d='M0 0 C 0 0 0 0 100 0 Z'/>
+      </svg></div>
+
+
+<div id='footer'>
+    <div class='ct-wrapper'>
+<b:section class='footer' id='footer1' preferred='yes'>
+  <b:widget id='Profile1' locked='false' title='About Me' type='Profile' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='showaboutme'>true</b:widget-setting>
+      <b:widget-setting name='showlocation'>false</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+    <b:if cond='data:team == &quot;true&quot;'> <!-- team blog profile -->
+      <ul>
+        <b:loop values='data:authors' var='i'>
+          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
+        </b:loop>
+      </ul>
+
+    <b:else/> <!-- normal blog profile -->
+
+      <b:if cond='data:photo.url != &quot;&quot;'>
+        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:photo.alt' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
+      </b:if>
+
+      <dl class='profile-datablock'>
+        <dt class='profile-data'>
+          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
+            <data:displayname/>
+          </a>
+          <b:if cond='data:hasgoogleprofile'>
+            <br/>
+            <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
+          </b:if>
+        </dt>
+
+        <b:if cond='data:showlocation == &quot;true&quot;'>
+          <dd class='profile-data'><data:location/></dd>
+        </b:if>
+
+        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
+      </dl>
+      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
+    </b:if>
+
+     <b:include name='quickedit'/>
+    </div>
+  </b:includable>
+  </b:widget>
+</b:section>
+<b:section class='footer' id='footer2' preferred='yes'>
+  <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
+      <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+      <b:widget-setting name='showSnippets'>true</b:widget-setting>
+      <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <li>
+        <b:if cond='data:showThumbnails == &quot;false&quot;'>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+              <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (3) Show only thumbnails -->
+            <div class='item-thumbnail-only'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+            </div>
+            <div style='clear: both;'/>
+          <b:else/>
+            <!-- (4) Show snippets and thumbnails -->
+            <div class='item-content'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </div>
+            <div style='clear: both;'/>
+          </b:if>
+        </b:if>
+      </li>
+      </b:loop>
+    </ul>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
+<b:section class='footer' id='footer3' preferred='yes'>
+  <b:widget id='Label2' locked='false' title='Labels' type='Label' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+      <b:widget-setting name='display'>LIST</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'/>
+      <b:widget-setting name='showType'>ALL</b:widget-setting>
+      <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+    <b:if cond='data:display == &quot;list&quot;'>
+      <ul>
+      <b:loop values='data:labels' var='label'>
+        <li>
+          <b:if cond='data:blog.url == data:label.url'>
+            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </li>
+      </b:loop>
+      </ul>
+    <b:else/>
+      <b:loop values='data:labels' var='label'>
+        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+          <b:if cond='data:blog.url == data:label.url'>
+            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </span>
+      </b:loop>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+</b:section>
+
+    <div class='clr'/>
+
+
+            </div><!-- /ct-wrapper -->
+<p class='source-org copyright' style='text-align:left;'>  
+
+shahiran Art - Handmade Sketch | Photo to Painting | Digital Portrait Painting
+ </p>
+</div><!-- footer -->
+
+
+
+
+
+<div class='social-footer' style='background: #252629;padding-bottom: 30px;'>
+                        <div class='grid grid-pad'>
+                            <div class='col-1-1'>
+                                <div class='content'>
+                                    <div class='social-set'>
+                                       <div class='not_visible_d'>
+									   <a href=''><i class='fa fa-envelope'/></a>
+									   </div>
+									   <div class='not_visible_m'>
+								
+									   <a href=''><i class='fa fa-whatsapp'/></a>
+									   </div>
+									   <a href=''>
+									   <i class='fa fa-facebook'/></a>
+									   <a href='http://www.youtube/shahiranart'><i class='fa fa-youtube-play'/></a>
+									   <a href='http://www.pinterest.com/shahiranart'><i class='fa fa-pinterest'/></a>
+									   <a href='http://www.twitter.com/shahiranart'><i class='fa fa-twitter'/></a>
+									   <a href='http://www.linkedin.com/shahiranart'><i class='fa fa-linkedin'/></a>
+									   <a href='http://www.instagram.com/shahiranart'><i class='fa fa-instagram'/></a> 
+									  
+                                  </div>
+
+
+
+
+<p class='source-org copyright'>Copyright @ 2020 Shahiran Art | Designed By - <a HREF='http://www.shakthi.gensecure.in' TARGET='_blank' title='Shakthi Nakkeeran'>Shakthi Nakkeeran</a><a href='http://www.templateclue.com' id='templateclue' rel='dofollow' style='visibility:hidden' title='Free Blogger Templates'>Free Blogger Templates</a> </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+  <div class='loader-overlay'>
+                    <div class='loader'>
+                        <div class='bar'/>
+                        <div class='bar'/>
+                        <div class='bar'/>
+                        <div class='bar'/>
+                        <div class='bar'/>
+                    </div>
+                </div>
+
+<!--Page Navigation Starts-->
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<script type='text/javascript'>
+var pageCount=6;
+var displayPageNum=6;
+var upPageWord =&#39;&#171; Previous&#39;;
+var downPageWord =&#39;Next &#187;&#39;;
+</script>
+<script language='javascript' type='text/javascript'>//<![CDATA[
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('1b 18(a){3 b=G;3 c=Z 13();3 d=1;3 e=1;3 f=0;3 g=0;3 h=0;3 j=\'\';3 k=\'\';3 l=\'\';D(3 i=0,v;v=a.1d.1i[i];i++){3 m=v.N.$t.C(0,19)+v.N.$t.C(1e,1g);E=S(m);3 n=v.10.$t;4(n!=\'\'){4(f==0||(f%A==(A-1))){4(b.7(E)!=-1){d=e}4(n!=\'\')e++;c[c.x]=\'/y?P-u=\'+E+\'&u-H=\'+A}}f++}D(3 p=0;p<c.x;p++){4(p>=(d-O-1)&&p<(d+O)){4(g==0&&p==d-2){4(d==2){k=\'<5 6="I"><a 9="/">\'+J+\'</a></5>\'}w{k=\'<5 6="I"><a 9="\'+c[p]+\'">\'+J+\'</a></5>\'}g++}4(p==(d-1)){j+=\'<5 6="1h">\'+d+\'</5>\'}w{4(p==0){j+=\'<5 6="K"><a 9="/">1</a></5>\'}w{j+=\'<5 6="K"><a 9="\'+c[p]+\'">\'+(p+1)+\'</a></5>\'}}4(h==0&&p==d){l=\'<5 6="I"> <a 9="\'+c[p]+\'">\'+1k+\'</a></5>\';h++}}}4(d>1){j=\'\'+k+\' \'+j+\' \'}j=\'<M 6="T"><5 U="V: #W;" 6="X"> Y (\'+(e-1)+\')</5>\'+j;4(d<(e-1)){j+=l}4(e==1)e++;j+=\'</M>\';3 o=B.11("12");3 q=B.15("16-17");4(e<=2){j=\'\'}D(3 p=0;p<o.x;p++){o[p].L=j}4(o&&o.x>0){j=\'\'}4(q){q.L=j}}1b 1a(a){3 b=G;3 c=Z 13();3 d=b.7("/y/z/")!=-1;3 e=d?b.1c(b.7("/y/z/")+14,b.x):"";e=e.7("?")!=-1?e.1c(0,e.7("?")):e;3 f=1;3 g=1;3 h=0;3 j=0;3 k=0;3 l=\'\';3 m=\'\';3 n=\'\';3 o=\'<5 6="K"><a 9="/y/z/\'+e+\'?&u-H=\'+A+\'">\';3 b=G;D(3 i=0,v;v=a.1d.1i[i];i++){3 q=v.N.$t.C(0,19)+v.N.$t.C(1e,1g);E=S(q);3 r=v.10.$t;4(r!=\'\'){4(h==0||(h%A==(A-1))){4(b.7(E)!=-1){f=g}4(r!=\'\')g++;c[c.x]=\'/y/z/\'+e+\'?P-u=\'+E+\'&u-H=\'+A}}h++}D(3 p=0;p<c.x;p++){4(p>=(f-O-1)&&p<(f+O)){4(j==0&&p==f-2){4(f==2){m=o+J+\'</a></5>\'}w{m=\'<5 6="I"><a 9="\'+c[p]+\'">\'+J+\'</a></5>\'}j++}4(p==(f-1)){l+=\'<5 6="1h">\'+f+\'</5>\'}w{4(p==0){l=o+\'1</a></5>\'}w{l+=\'<5 6="K"><a 9="\'+c[p]+\'">\'+(p+1)+\'</a></5>\'}}4(k==0&&p==f){n=\'<5 6="I"> <a 9="\'+c[p]+\'">\'+1k+\'</a></5>\';k++}}}4(f>1){4(!d){l=\'\'+m+\' \'+l+\' \'}w{l=\'\'+m+\' \'+l+\' \'}}l=\'<M 6="T"><5 U="V: #W;" 6="X"> Y (\'+(g-1)+\')</5>\'+l;4(f<(g-1)){l+=n}4(g==1)g++;l+=\'</M>\';3 s=B.11("12");3 t=B.15("16-17");4(g<=2){l=\'\'}D(3 p=0;p<s.x;p++){s[p].L=l}4(s&&s.x>0){l=\'\'}4(t){t.L=l}}3 G=1t.9;3 8=G;4(8.7("/y/z/")!=-1){4(8.7("?P-u")!=-1){3 Q=8.C(8.7("/y/z/")+14,8.7("?P-u"))}w{3 Q=8.C(8.7("/y/z/")+14,8.7("?&u"))}}3 R="/";4(8.7("?q=")==-1){4(8.7("/y/z/")==-1){B.1j(\'<F 1l="\'+R+\'1m/1n/1s?1p=1q-1r-F&1o=18&u-H=1f" ><\\/F>\')}w{B.1j(\'<F 1l="\'+R+\'1m/1n/1u/-/\'+Q+\'?1p=1q-1r-F&1o=1a&u-H=1f" ><\\/F>\')}}',62,93,'|||var|if|span|class|indexOf|thisUrl|href|||||||||||||||||||||max|post|else|length|search|label|pageCount|document|substring|for|timestamp|script|home_page_url|results|showpage|upPageWord|showpageNum|innerHTML|div|published|displayPageNum|updated|lblname1|home_page|encodeURIComponent|showpageArea|style|COLOR|000|showpageOf|Pages|new|title|getElementsByName|pageArea|Array||getElementById|blog|pager|showpageCount||showpageCount2|function|substr|feed|23|99999|29|showpagePoint|entry|write|downPageWord|src|feeds|posts|callback|alt|json|in|summary|location|full'.split('|'),0,{}))//]]></script>
+</b:if>
+</b:if>
+<!--Page Navigation Ends -->
+  <!-- JS -->
+
+  <!-- Min JS-->
+		<script>
+var _0xdbc0=[&quot;\x74\x69\x74\x6C\x65\x31&quot;,&quot;\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64&quot;,&quot;\x74\x69\x74\x6C\x65\x32&quot;,&quot;\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C&quot;,&quot;\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64&quot;,&quot;\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65&quot;,&quot;\x62\x6C\x6F\x67\x2D\x70\x61\x67\x65\x72&quot;,&quot;\x70\x61\x67\x65\x72&quot;,&quot;\x6F\x6E\x6C\x6F\x61\x64&quot;,&quot;\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65&quot;,&quot;\x68\x72\x65\x66&quot;,&quot;\x6C\x6F\x63\x61\x74\x69\x6F\x6E&quot;,&quot;\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65\x2E\x63\x6F\x6D\x2F&quot;,&quot;\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65&quot;,&quot;\x72\x65\x66&quot;,&quot;\x64\x6F\x66\x6F\x6C\x6C\x6F\x77&quot;,&quot;\x74\x69\x74\x6C\x65&quot;,&quot;\x46\x72\x65\x65\x20\x42\x6C\x6F\x67\x67\x65\x72\x20\x54\x65\x6D\x70\x6C\x61\x74\x65\x73&quot;,&quot;\x54\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65&quot;];(function(){var _0x56c8x1=document[_0xdbc0[1]](_0xdbc0[0]);var _0x56c8x2=document[_0xdbc0[1]](_0xdbc0[2]);_0x56c8x2[_0xdbc0[3]]=_0x56c8x1[_0xdbc0[3]];_0x56c8x1[_0xdbc0[5]][_0xdbc0[4]](_0x56c8x1);})();(function(){var _0x56c8x1=document[_0xdbc0[1]](_0xdbc0[6]);var _0x56c8x2=document[_0xdbc0[1]](_0xdbc0[7]);_0x56c8x2[_0xdbc0[3]]=_0x56c8x1[_0xdbc0[3]];_0x56c8x1[_0xdbc0[5]][_0xdbc0[4]](_0x56c8x1);})();window[_0xdbc0[8]]=function(){var _0x56c8x3=document[_0xdbc0[1]](_0xdbc0[9]);if(_0x56c8x3==null){window[_0xdbc0[11]][_0xdbc0[10]]=_0xdbc0[12]};_0x56c8x3[_0xdbc0[13]](_0xdbc0[10],_0xdbc0[12]);_0x56c8x3[_0xdbc0[13]](_0xdbc0[14],_0xdbc0[15]);_0x56c8x3[_0xdbc0[13]](_0xdbc0[16],_0xdbc0[17]);_0x56c8x3[_0xdbc0[3]]=_0xdbc0[18];};
+</script>
+		<script>
+var _0x6945=[&quot;\x74\x69\x74\x6C\x65\x34&quot;,&quot;\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64&quot;,&quot;\x74\x69\x74\x6C\x65\x33&quot;,&quot;\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C&quot;,&quot;\x72\x65\x6D\x6F\x76\x65\x43\x68\x69\x6C\x64&quot;,&quot;\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65&quot;,&quot;\x62\x6C\x6F\x67\x2D\x70\x61\x67\x65\x72&quot;,&quot;\x70\x61\x67\x65\x72\x32&quot;,&quot;\x6F\x6E\x6C\x6F\x61\x64&quot;,&quot;\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65&quot;,&quot;\x68\x72\x65\x66&quot;,&quot;\x6C\x6F\x63\x61\x74\x69\x6F\x6E&quot;,&quot;\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x74\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65\x2E\x63\x6F\x6D\x2F&quot;,&quot;\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65&quot;,&quot;\x72\x65\x66&quot;,&quot;\x64\x6F\x66\x6F\x6C\x6C\x6F\x77&quot;,&quot;\x74\x69\x74\x6C\x65&quot;,&quot;\x46\x72\x65\x65\x20\x42\x6C\x6F\x67\x67\x65\x72\x20\x54\x65\x6D\x70\x6C\x61\x74\x65\x73&quot;,&quot;\x54\x65\x6D\x70\x6C\x61\x74\x65\x63\x6C\x75\x65&quot;];(function(){var _0xc737x1=document[_0x6945[1]](_0x6945[0]);var _0xc737x2=document[_0x6945[1]](_0x6945[2]);_0xc737x2[_0x6945[3]]=_0xc737x1[_0x6945[3]];_0xc737x1[_0x6945[5]][_0x6945[4]](_0xc737x1);})();(function(){var _0xc737x1=document[_0x6945[1]](_0x6945[6]);var _0xc737x2=document[_0x6945[1]](_0x6945[7]);_0xc737x2[_0x6945[3]]=_0xc737x1[_0x6945[3]];_0xc737x1[_0x6945[5]][_0x6945[4]](_0xc737x1);})();window[_0x6945[8]]=function(){var _0xc737x3=document[_0x6945[1]](_0x6945[9]);if(_0xc737x3==null){window[_0x6945[11]][_0x6945[10]]=_0x6945[12]};_0xc737x3[_0x6945[13]](_0x6945[10],_0x6945[12]);_0xc737x3[_0x6945[13]](_0x6945[14],_0x6945[15]);_0xc737x3[_0x6945[13]](_0x6945[16],_0x6945[17]);_0xc737x3[_0x6945[3]]=_0x6945[18];};
+</script>
+ 	<!-- Min JS / End-->
+
+
+
+<script src='//blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5QzFReWNoY1VhSFE'/>
+<script src='//blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5ZWg2bW5UeG4yQ3M'/>
+<script src='//blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5YWVZcFBabVVham8'/>
+<script src='//blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5YjJwd2hqbjR3UTA'/>
+<script src='//blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5ZlhLelpieGV6OW8'/>
+<script src='//blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5amZHdjNYd2kwc0k'/>
+<script src='//blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5Ul8xUTNBS0tnMGc'/>
+<script src='//blog.templateclue.com/wp-content/uploads/2016/08/0BzhmjN6UOoj5VEFlX0wwRlNfSkk'/>
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js'/>
+<script SRC='//gensecure.github.io/testing/1.js'/>
+<script SRC='https://maps.googleapis.com/maps/api/js?key=AIzaSyCSCra5gTliqEX6Wstt-WhJBdx63dxc0hw'/>
+
+
+
+<script>
+            /// -16.3985431,-71.5368236 arequipa
+            var $latitude = 10.6819,
+            $longitude = 79.8437,
+            $map_zoom = 15;
+        </script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=UA-113588132-1'/>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+
+  gtag(&#39;config&#39;, &#39;UA-113588132-1&#39;);
+</script> 
+
+</body>
+    
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Show</title>
+  <!-- Add Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<!-- Add Owl Carousel JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <!-- Include Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <!-- Include Owl Carousel Theme CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <!-- Include Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Add any additional CSS styles here */
+  </style>
+</head>
+<body>
+  <div class="wrap services-wrap">
+    <section class="grid grid-pad">
+      <div class="col-1-1 service-box cl-client-carousel-container">
+        <div class="content">
+          <div class="cl-client-carousel owl-carousel owl-theme">
+            <!-- Slides will be dynamically added here -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Include Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    // Function to fetch JSON data and create slides
+    function fetchAndCreateSlides() {
+      fetch("https://raw.githubusercontent.com/shakthinakkeeran7/shahiranart/master/form.json")
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
+        .then(parsedData => {
+          // Loop through the offers and create slides
+          parsedData.offers.forEach(offer => {
+            const slide = `
+              <div class="item client-carousel-item">
+                <div class="col-1-4">
+                  <div class="content staff-content">
+                    <div class="recent-work staff-img">
+                      <div class="img-wrap staff-img">
+                        <img alt="" src="${offer.image}">
+                      </div>
+                      <div class="work-info staff-info">
+                        <h5>${offer.name}</h5>
+                        <h4><strike>Regular Price - ₹ ${offer.regularPrice}</strike></h4>
+                        <h4>Offer Price - ₹ ${offer.offerPrice}</h4>
+                        <a class="btn read-more" href="#" target="_blank" title="Order Now"><em class="fa fa-envelope"></em> Order Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            `;
+            document.querySelector('.cl-client-carousel').innerHTML += slide;
+          });
+
+
+          // Initialize Owl Carousel
+$(document).ready(function(){
+  $(".cl-client-carousel").owlCarousel({
+    loop: true, // Enable loop
+    margin: 20, // Add margin between items
+    nav: true, // Show navigation arrows
+    dots: false, // Hide pagination dots
+    responsive:{
+      0:{
+          items:1 // Show 1 item on smaller screens
+      },
+      600:{
+          items:2 // Show 2 items on medium screens
+      },
+      1000:{
+          items:5 // Show 5 items on larger screens
+      }
+    }
+  });
+});
+
+          // Initialize Owl Carousel
+          $('.cl-client-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+              0: {
+                items: 1,
+                nav: true
+              },
+              600: {
+                items: 2,
+                nav: false
+              },
+              1000: {
+                items: 4,
+                nav: true,
+                loop: false
+              }
+            }
+          });
+        })
+        .catch(error => {
+          console.error("There was a problem fetching the JSON file:", error);
+        });
+    }
+
+    // Call the function to fetch JSON data and create slides
+    fetchAndCreateSlides();
+  </script>
+
+  <style>/* Add any additional CSS styles here */
+
+    /* Styles for the slide show */
+    .cl-client-carousel {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    
+    .cl-client-carousel .owl-item {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .client-carousel-item {
+      width: 100%;
+    }
+    
+    .client-carousel-item .col-1-4 {
+      margin: 0 15px;
+    }
+    
+    .client-carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .client-carousel-item .content {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .client-carousel-item h5 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .client-carousel-item h4 {
+      font-size: 16px;
+    }
+    
+    .client-carousel-item .btn.read-more {
+      margin-top: 10px;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    .client-carousel-item .btn.read-more:hover {
+      background-color: #0056b3;
+    }
+    
+    /* Hide elements on smaller screens */
+    @media screen and (max-width: 768px) {
+      .client-carousel-item .not_visible_d {
+        display: none;
+      }
+    }
+    
+    /* Hide elements on medium screens */
+    @media screen and (max-width: 992px) {
+      .client-carousel-item .not_visible_m {
+        display: none;
+      }
+    }
+    </style>
+</body>
+</html>

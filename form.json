@@ -6,7 +6,7 @@
           "@type": "Offer",
           "name": "1 \/ 8x6 Inches \/ Framed",
           "availability":"https://schema.org/InStock",
-          "price": 1349.0,
+          "price": 1250.0,
           "priceCurrency": "INR",
           "priceValidUntil": "2024-02-19",
           "url": "/products/normal-pencil-portrait?variant=46787822878999"
@@ -24,7 +24,7 @@
           "@type": "Offer",
           "name": "1 \/ 8x6 Inches \/ Rolled Paper",
           "availability":"https://schema.org/InStock",
-          "price": 1250.0,
+          "price": 850.0,
           "priceCurrency": "INR",
           "priceValidUntil": "2024-02-19",
           "url": "/products/normal-pencil-portrait?variant=46787822944535"
